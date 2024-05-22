@@ -5,6 +5,11 @@
 
   margin: 0;
   padding: 0;
+ 
+}
+
+body{
+  width: 100%;
 }
 
 
@@ -131,9 +136,11 @@
   font-size: 150%;
   margin: 0 50px;
 }
-.main-navigation nav ul li:hover{
+
+.main-navigation nav ul li:hover {
   cursor: pointer;
 }
+
 /*Styling for the line of separation*/
 
 .separation-line {
@@ -147,7 +154,7 @@
 /*Styling for the main banner*/
 
 .main-banner-container {
-  margin-top: 5vh;
+  margin-top: 1vh;
   width: 100%;
   display: flex;
 }
@@ -172,26 +179,158 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px; 
+  padding: 20px;
 
 }
 
-.main-banner-information h1{
+.main-banner-information h1 {
   font-family: "Inter", sans-serif;
   font-weight: 100;
-  color:white;
+  color: white;
 }
 
-.main-banner-information-cta-btn{
+.main-banner-information-cta-btn {
 
   font-family: "Inter", sans-serif;
   background-color: white;
   margin-top: 3vh;
-  color:#43AED9;
+  color: #43AED9;
   padding: 3%;
+
+}
+
+.main-banner-information-cta-btn:hover {
+  cursor: pointer;
+}
+
+/*Styling for the hooks messages on the page */
+
+.hook-message{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
   
 }
 
-.main-banner-information-cta-btn:hover{
-  cursor: pointer;
+.hook-message h1{
+  color: #43AED9;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+
+.hook-message-2{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+}
+
+.hook-message-2 h1{
+  color: #43AED9;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+
+
+/*Styling for the products or elements of the page*/
+
+.company-elements-wrapper {
+  display: flex;
+  
+  justify-content: space-between;
+ 
+  height: 40vh;
+}
+
+.company-elements-wrapper div {
+
+  height: 30vh;
+  width: 30vw;
+  background-color: #43AED9;
+  border-style: solid;
+  border-color: #43AED9;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.company-elements-wrapper h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 400%;
+  color: #1e92c0;
+  margin-left: 3vh;
+}
+
+
+
+.company-element h1{
+  width: 20vw;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  color: white;
+  margin-left: 1vh;
+  font-size: 150%;
+  text-align: center;
+}
+.company-element-2 h1{
+  width: 20vw;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  color: white;
+  margin-left: 1vh;
+  font-size: 150%;
+  text-align: center;
+}
+.company-element-3 h1{
+  width: 20vw;
+  font-family: "Inter", sans-serif;
+  font-size: 150%;
+  text-align: center;
+  font-weight: 200;
+  color: white;
+  margin-left: 1vh;
+
+}
+
+.company-element{
+
+  margin-left: 2vw;
+}
+
+.company-element-3{
+
+  margin-right: 2vw;
+}
+
+.company-element,
+.company-element-2,
+.company-element-3{
+
+
+  background: linear-gradient(
+    to right,
+    #43AED9 70%,
+    white 30%
+
+  );
+}
+
+
+/* Styling for the carousel*/
+.custom-carousel {
+  height: 100% /* Adjust the height as needed */
+}
+
+.custom-carousel .carousel-item img {
+  height: 20vh;
+  width: 100%;
+  object-fit: cover; /* Asegura que la imagen cubra el área sin estirarse */
+  object-position: center 10px; /* Ajusta la posición de la imagen dentro del contenedor */
 }
