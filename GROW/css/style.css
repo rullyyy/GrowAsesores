@@ -322,6 +322,22 @@ body{
   );
 }
 
+/* Styling for the btn to schedule an appointment*/
+.btn-schedule-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.cta-btn-schedule{
+
+  font-family: "Inter", sans-serif;
+  background-color: #43AED9 ;
+  margin-top: 3vh;
+  color: white;
+  padding: 3%;
+}
 
 /* Styling for the carousel*/
 .custom-carousel {
@@ -334,3 +350,37 @@ body{
   object-fit: cover; /* Asegura que la imagen cubra el área sin estirarse */
   object-position: center 10px; /* Ajusta la posición de la imagen dentro del contenedor */
 }
+
+
+/*Styling for the section where the reasons to join the company are justified*/
+
+.justification-1, 
+.justification-2,
+.justification-3{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.justification-text{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.justification-img{
+  width: 50%;
+ 
+}
+.justification-img img{
+  width: 100%;
+  object-fit: cover;
+}
+.justification-text h3{
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+}
+
