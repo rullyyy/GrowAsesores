@@ -157,9 +157,8 @@ body{
 
 .first-section{
     width: 225vh;
- height: 50vh;
- background-color: red;
- margin-top: 10vh;
+    height: 75vh;
+    margin-top: 10vh;
  
 }
 .first-section div{
@@ -176,7 +175,7 @@ body{
     font-family: "Inter", sans-serif;
     color: white;
     font-weight: 600;
-    margin-top: 25vh;
+    margin-top: 33%;
     text-align: center;
 }
 
@@ -191,3 +190,145 @@ body{
 }
 
  /*Styling for the second section of the webpage*/
+
+ .second-section{
+  width: 225vh;
+  height: 60vh;
+  
+  margin-top: 10vh;
+ }
+
+ .second-section h3{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to right,#26488C, #2983A5, #2BA1B2, #2CBFBF);
+  -webkit-background-clip: text;
+  color: transparent;
+ }
+ .second-section div{
+  float: left;
+  margin-left: 10%;
+  margin-top: 2%;
+ }
+
+ .container-1{
+  background-color: #ffffff;
+  width: 20%;
+  height: 80%;
+ }
+
+ .container-1 img{
+  width: 80%;
+  height: 80%;
+  margin-left: 8% ;
+ }
+
+ .container-1 h4{
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to right,#26488C, #2983A5, #2BA1B2, #2CBFBF);
+  -webkit-background-clip: text;
+  color: transparent;
+ }
+
+ .container-2{
+  background-color: #ffffff;
+  width: 20%;
+  height: 80%;
+ }
+
+ .container-2 img{
+  width: 80%;
+  height: 80%;
+  margin-left: 8% ;
+ }
+
+ .container-2 h4{
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to right,#26488C, #2983A5, #2BA1B2, #2CBFBF);
+  -webkit-background-clip: text;
+  color: transparent;
+ }
+
+ .container-3{
+  background-color: #ffffff;
+  width: 20%;
+  height: 80%;
+ }
+
+ .container-3 img{
+  width: 80%;
+  height: 80%;
+  margin-left: 8% ;
+ }
+
+ .container-3 h4{
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to right,#26488C, #2983A5, #2BA1B2, #2CBFBF);
+  -webkit-background-clip: text;
+  color: transparent;
+ }
+
+ /*Styling for the thirs section of the webpage*/
+ .third-section{
+  background: linear-gradient(to right,#26488C, #2983A5, #2BA1B2, #2CBFBF);
+  width: 225vh;
+  height: 40vh;
+ }
+
+ .container-text{
+  width: 100%;
+  height: 70%;
+ 
+  padding-top: 5%;
+ }
+ .container-text h2{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 250%;
+  
+ }
+
+ .container-text h3{
+  margin-top: 2%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 150%;
+ }
+
+ /*Styling for the fourth section of the webpage */
+ .fourth-section{
+  background-color: white;
+  width: 225vh;
+  height: 40vh;
+ }
+
+ .container-text-2{
+  width: 100%;
+  height: 70%;
+ 
+  padding-top: 5%;
+ }
+
+ .container-text-2 h3{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to right,#26488C, #2983A5, #2BA1B2, #2CBFBF);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 150%;
+  margin-top: 2%;
+ }
+
+
+ /*Styling of the fifth section of the webpage*/
