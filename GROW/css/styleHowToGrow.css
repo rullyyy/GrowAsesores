@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:wght@100..900&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body{
+  width: 100%;
+}
+
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-name {
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+
+.company-name h1 {
+  color: #43AED9;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  font-size: 150%;
+}
+
+.login-options {
+  display: flex;
+}
+
+.login-options {
+  margin-right: 0px;
+
+}
+
+.login-btn {
+
+  border: #43AED9;
+  margin-top: 3vh;
+  margin-right: 5vw;
+
+}
+
+.login-btn {
+  text-align: center;
+  border-style: solid;
+  border-color: #43AED9;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+}
+
+.login-btn h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  color: #43AED9;
+
+}
+
+.login-btn:hover {
+  cursor: pointer;
+  border-width: 2px;
+}
+
+
+.join-btn {
+
+  margin-top: 3vh;
+  margin-right: 5vw;
+  padding: 2%;
+  background-color: #43AED9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+}
+
+.join-btn h1 {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 200%;
+
+}
+
+.join-btn:hover {
+  background-color: #1e92c0;
+  cursor: pointer;
+}
+
+/* CSS for the company logo*/
+.company-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo img {
+  width: 15%;
+  height: 15%;
+
+}
+
+/*  Styling for the main navigation navbar */
+
+
+.main-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.main-navigation nav {
+  display: flex;
+}
+
+.main-navigation nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-navigation nav ul li {
+  font-family: "Inter", sans-serif;
+  color: #1e92c0;
+  font-size: 150%;
+  margin: 0 50px;
+}
+
+.main-navigation nav ul li:hover {
+  cursor: pointer;
+}
+
+/*Styling for the line of separation*/
+
+.separation-line {
+  margin-top: 3vh;
+  width: 100%;
+  height: 0.3vh;
+  background-color: #43AED9;
+
+}
+
+/*Styling for the first section of the webpage*/
+
+.first-section{
+    width: 225vh;
+ height: 50vh;
+ background-color: red;
+ margin-top: 10vh;
+ 
+}
+.first-section div{
+ float: left;
+}
+
+.left-container{
+  background: linear-gradient(to right,#26488C, #2983A5, #2BA1B2, #2CBFBF);
+  width: 50%;
+  height: 100%;
+}
+
+.left-container h3{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.right-container{
+    color: purple;
+    width: 50%;
+    height: 100%;
+}
+.right-container img{
+    width: 100%;
+    height: 100%;
+}
+
+ /*Styling for the second section of the webpage*/
