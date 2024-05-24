@@ -167,7 +167,7 @@ body{
     width: 225vh;
     height: 75vh;
     margin-top: 10vh;
- 
+    background: lightskyblue;
 }
 .first-section div{
  float: left;
@@ -457,17 +457,14 @@ body{
 }
 
 .btn-grow:hover{
-  background: transparent;
-    color:#2CBFBF;
+  
+    
     transition: 0.5s;
     background-color: #ffffff;
     box-shadow: 0 0 10px #2CBFBF, 0 0 40px #2CBFBF, 0 0 60px #2CBFBF;
 }
 
-.btn-grow:hover h3{
-  color: #2CBFBF;
-  
-}
+
 
 .btn-grow a{
   text-decoration: none;
