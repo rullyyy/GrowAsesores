@@ -200,15 +200,18 @@ body{
   background-color: white;
   margin-top: 3vh;
   color: #43AED9;
-  padding: 3%;
-
+  width: 20vw;
+  padding: 10%;
+  text-align: center;
 }
 
 .main-banner-information-cta-btn:hover {
   cursor: pointer;
 }
 
-
+.cta-banner-anchor{
+  text-decoration: none;
+}
 
 /*Styling for the hooks messages on the page */
 
@@ -466,4 +469,11 @@ body{
   transform: scale(1.05);
   transition: transform 1.2s ease-out, opacity 0.5s ease-out; /* Smooth transition */
   opacity: 1;
+}
+
+
+/* set the text decoration of the main navigation to none*/
+
+.main-navigation a{
+  text-decoration: none;
 }
