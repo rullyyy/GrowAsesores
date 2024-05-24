@@ -72,6 +72,11 @@ body{
 }
 
 
+.login-btn a {
+  text-decoration: none;
+}
+
+
 .join-btn {
 
   margin-top: 3vh;
@@ -143,6 +148,9 @@ body{
   cursor: pointer;
 }
 
+.main-navigation a{
+  text-decoration: none;
+}
 /*Styling for the line of separation*/
 
 .separation-line {
@@ -332,3 +340,206 @@ body{
 
 
  /*Styling of the fifth section of the webpage*/
+ 
+ .fifth-section{
+    width: 225vh;
+    height: 75vh;
+    
+ }
+
+ .fifth-section div{
+  float: left;
+ }
+
+ .left-container-2{
+  padding-top: 3%;
+  width: 50%;
+  height: 91%;
+  background-color: whitesmoke;
+ }
+
+ .left-container-2 li{
+  margin-left: 15%;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 150%;
+  background: linear-gradient(to right,#26488C, #2983A5, #2BA1B2, #2CBFBF);
+  -webkit-background-clip: text;
+  color: transparent;
+  list-style: none; /* Remove default bullets */
+  
+  
+ }
+
+ .left-container-2 li::before {
+  content: '\2022'; /* Unicode for bullet character */
+  color: #26488C; /* Color of the bullet */
+  position: absolute;
+  left: 5%; /* Adjust this value to position the bullet correctly */
+}
+
+.right-container-2 {
+  background: linear-gradient(to right, #26488C, #2983A5, #2BA1B2, #2CBFBF);
+  width: 50%;
+  height: 100%;
+  
+}
+
+.right-container-2 h3 {
+  margin-top: 25%;
+  margin-left: 5%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+.right-container-2 ul {
+  padding-left: 0; /* Remove the default padding of <ul> */
+  list-style: none; /* Remove default bullets */
+}
+
+.right-container-2 li {
+  margin-left: 5%; /* Adjust margin to move the text closer */
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 150%;
+  color: white;
+  position: relative; /* Necessary for the ::before pseudo-element */
+  padding-left: 1em; /* Add padding for the bullet */
+}
+
+.right-container-2 li::before {
+  content: '\2022'; /* Unicode for bullet character */
+  color: white; /* Bullet color */
+  position: absolute;
+  left: 10%; /* Adjust to move the bullet closer to the text */
+  line-height: 1; /* Vertical alignment */
+}
+
+/*Styling for the sixth section of the webpage*/
+ 
+.sixth-section{
+  width: 225vh;
+  height: 80vh;
+}
+
+.sixth-section h2{
+  padding-top: 10%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to right, #26488C, #2983A5, #2BA1B2, #2CBFBF);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.btn-grow{
+  margin-left: 60vh;
+  margin-top: 10vh;
+  background: linear-gradient(to right, #26488C, #2983A5, #2BA1B2, #2CBFBF);
+  width: 45%;
+  height: 20%;
+  border-radius: 80px;
+  padding-top: 1%;
+}
+
+.btn-grow h3{
+  margin-top: 5%;
+  font-family: "Inter", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 4%;
+  font-weight: 500;
+  font-size: 150%;
+}
+
+.btn-grow:hover{
+  background: transparent;
+    color:#2CBFBF;
+    transition: 0.5s;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #2CBFBF, 0 0 40px #2CBFBF, 0 0 60px #2CBFBF;
+}
+
+.btn-grow:hover h3{
+  color: #2CBFBF;
+  
+}
+
+.btn-grow a{
+  text-decoration: none;
+}
+
+/*Styling for the footer */
+
+footer{
+  width: 225vh;
+  height: 50vh;
+  background: linear-gradient(to right, #26488C, #2983A5, #2BA1B2, #2CBFBF);
+}
+
+footer div{
+  float: left;
+}
+
+.info-container{
+  width: 50%;
+  height: 100%;
+}
+
+.icon-container{
+  width: 50%;
+  height: 100%;
+ 
+}
+
+.icon-container div{
+    float: left;
+    color: rgb(0, 0, 0); 
+    background-color: transparent;
+    margin-left: 15%;
+    margin-top: 20%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+     
+  
+}
+
+
+.icon-facebook img{
+  width: 35px;
+  height: 35px;
+  margin-left: 15%;
+  margin-top: 15%;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.icon-facebook:hover{
+  
+  
+}
+
+.icon-facebook:hover img{
+  
+}
+
+.icon-instagram img{
+  width: 35px;
+  height: 35px;
+  margin-left: 15%;
+  margin-top: 15%;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.icon-location img{
+  width: 35px;
+  height: 35px;
+  margin-left: 15%;
+  margin-top: 15%;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
