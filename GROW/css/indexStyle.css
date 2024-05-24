@@ -65,6 +65,11 @@ body{
 
 }
 
+.login-btn a {
+  text-decoration: none;
+}
+
+
 .login-btn:hover {
   cursor: pointer;
   border-width: 2px;
@@ -203,6 +208,8 @@ body{
   cursor: pointer;
 }
 
+
+
 /*Styling for the hooks messages on the page */
 
 .hook-message{
@@ -218,7 +225,7 @@ body{
 .hook-message h1{
   color: #43AED9;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 200;
 }
 
 
@@ -230,6 +237,7 @@ body{
   width: 100%;
   height: 20vh;
   text-align: center;
+  
 }
 
 .hook-message-2 h1{
@@ -239,6 +247,78 @@ body{
 }
 
 
+/*Styling for the grid section where you show the path to land a job*/
+.path-grid-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  text-align: center;
+  gap: 0.5em;
+}
+
+.path-grid-wrapper div {
+  padding: 3em;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.path-grid-wrapper div p {
+  font-family: "Inter", sans-serif;
+  color: white;
+  cursor: auto;
+}
+
+.step-1, 
+.step-2,
+.step-3 {
+  background-color: #7bcff0;
+  margin-left: 25%;
+  font-size: 200%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-1 p, 
+.step-2 p, 
+.step-3 p {
+  font-size: 200%;
+}
+
+.description-1,
+.description-2,
+.description-3 {
+  background-color: #43AED9;
+  
+  margin-right: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.description-1 p,
+.description-2 p,
+.description-3 p {
+  font-size: 100%;
+}
+
+.title {
+  font-size: 200% !important;
+  font-weight: 600;
+}
+
+.glow {
+  box-shadow: 0 0 50px rgb(255, 255, 255); 
+  transition: box-shadow 0.5s ease-in-out; 
+}
+.scale {
+  transform: scale(1.05);
+  transition: transform 1.2s ease-out, opacity 0.5s ease-out; /* Smooth transition */
+  opacity: 1;
+}
 /*Styling for the products or elements of the page*/
 
 .company-elements-wrapper {
