@@ -77,10 +77,11 @@ body{
 
 
 .join-btn {
-
+  width: 10vw;
+  height: 10vh;
   margin-top: 3vh;
   margin-right: 5vw;
-  padding: 2%;
+  border-radius: 5%;
   background-color: #43AED9;
   display: flex;
   justify-content: center;
@@ -476,4 +477,101 @@ body{
 
 .main-navigation a{
   text-decoration: none;
+}
+
+.join-team-wrapper {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.form-title-wrapper {
+  display: flex;
+  margin: 10%;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-title-wrapper h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+
+.first-name-wrapper input{
+  width: 15vw;
+  border: 1px solid #00000077;
+  border-radius: 1vw;
+  height: 5vh;
+  text-align: center;
+}
+.last-name-wrapper input{
+  width: 15vw;
+  border-radius: 1vw;
+  border: 1px solid #00000077;
+  height: 5vh;
+  text-align: center;
+}
+.phone-number-wrapper input{
+  width: 15vw;
+  border-radius: 1vw;
+  border: 1px solid #00000077;
+  height: 5vh;
+  text-align: center;
+}
+.email-wrapper input{
+  width: 15vw;
+  border-radius: 1vw;
+  border: 1px solid #00000077;
+  height: 5vh;
+  text-align: center;
+}
+.motive-wrapper textarea {
+  width: 41vw;
+  display: flex;
+  height: 20vh;
+  text-align: center;
+  border: 1px solid #00000077;
+}
+
+
+
+
+.submit-wrapper input {
+  margin-top: 3vh;
+  margin-left: 8vw;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #00000077;
+  border-radius: 1vw;
+  margin-left: 15vw;
+  color: white;
+  background-color: #1e92c0;
+  font-weight: 400;
+}
+
+.submit-button {
+  font-family: "Inter", sans-serif;
+  font-size: 20px; 
+
+ 
+}
+.join-team-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 1rem;
+}
+
+.motive-wrapper {
+  grid-column: span 2;
+}
+
+
+/*Styling for the footer*/
+
+footer{
+  height: 30vh;
+  background-color: #000000;
 }
