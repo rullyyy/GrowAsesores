@@ -567,8 +567,7 @@ footer {
 
 /*Mobile S - 320px*/
 
-
-@media (min-width:320px) and (max-width:375px) {
+@media (min-width:320px) and (max-width:768px){
 
   body {
     width: 100vw;
@@ -590,35 +589,6 @@ footer {
 
   .company-logo {
     display: none;
-  }
-
-  /* Styling for the banner information*/
-
-  .main-banner-information {
-    width: 100%;
-    height: 60vh;
-
-  }
-
-  .main-banner-information h1 {
-    margin-top: -20vh;
-    text-align: center;
-  }
-
-  .cta-banner-anchor {
-    width: 50vw;
-    height: 8vh;
-  }
-
-  .main-banner-information-cta-btn {
-    width: 100%;
-    height: 100%;
-    border-radius: 5vw;
-  }
-
-  .main-banner-information-cta-btn h3 {
-
-    font-size: 5vw;
   }
 
   .mobile-logo {
@@ -729,6 +699,38 @@ footer {
   .motive-wrapper textarea {
     width: 100%;
   }
+
+}
+@media (min-width:320px) and (max-width:375px) {
+
+  /* Styling for the banner information*/
+  .main-banner-information {
+    width: 100%;
+    height: 60vh;
+
+  }
+
+  .main-banner-information h1 {
+    margin-top: -20vh;
+    text-align: center;
+  }
+
+  .cta-banner-anchor {
+    width: 50vw;
+    height: 8vh;
+  }
+
+  .main-banner-information-cta-btn {
+    width: 100%;
+    height: 100%;
+    border-radius: 5vw;
+  }
+
+  .main-banner-information-cta-btn h3 {
+
+    font-size: 5vw;
+  }
+
 }
 
 
@@ -737,27 +739,6 @@ footer {
 
 @media (min-width:375px) and (max-width:425px) {
 
-  body {
-    width: 100vw;
-  }
-
-  .top-bar {
-    display: none;
-  }
-
-  .navbar-brand h1 {
-    font-size: 10vw;
-  }
-
-
-  .navbar {
-    width: 100%;
-
-  }
-
-  .company-logo {
-    display: none;
-  }
 
   /* Styling for the banner information*/
 
@@ -788,114 +769,7 @@ footer {
     font-size: 5vw;
   }
 
-  .mobile-logo {
-    display: block;
-  }
-
-  .mobile-logo img {
-    margin-top: 8vh;
-    width: 100vw;
-    position: absolute;
-    left: 2vw;
-  }
-
-  /*Styling for the banner image*/
-  .main-banner-image {
-    display: none;
-  }
-
-  /*Styling for the hook message*/
-
-  .hook-message {
-    text-align: center;
-    padding: 3vw;
-  }
-
-  .path-grid-wrapper {
-    display: block;
-
-  }
-
-  .step-1,
-  .step-2,
-  .step-3 {
-    margin-left: 0;
-    height: 5vh;
-  }
-
-  .path-grid-wrapper div {
-    width: 100%;
-  }
-
-  .hook-message-2 {
-    display: none;
-  }
-
-  .custom-carousel {
-    display: none;
-  }
-
-  .justification-text {
-    width: 100%;
-    margin-bottom: 5vh;
-  }
-
-  .justification-img {
-    display: none;
-  }
-
-  .justification-1,
-  .justification-2,
-  .justification-3 {
-    display: none;
-  }
-
-  .join-team-wrapper {
-    display: block;
-    height: 80vh;
-  }
-
-  .join-team-form {
-    display: block;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto;
-    gap: 0;
-
-  }
-
-
-
-  .form-title-wrapper {
-    text-align: center;
-  }
-
-  .join-team-form div {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
-  }
-
-  .join-team-form div input {
-    width: 100%;
-
-  }
-
-  .submit-wrapper {
-    margin-left: 0vh;
-  }
-
-  .submit-wrapper input {
-    margin-left: 0;
-    border-radius: 50vw;
-  }
-
-  .motive-wrapper {
-    width: 80%;
-  }
-
-  .motive-wrapper textarea {
-    width: 100%;
-  }
+ 
 }
 
 /*Mobile L - 425px*/
@@ -903,27 +777,7 @@ footer {
 
 @media (min-width:426px) and (max-width:768px) {
 
-  body {
-    width: 100vw;
-  }
 
-  .top-bar {
-    display: none;
-  }
-
-  .navbar-brand h1 {
-    font-size: 10vw;
-  }
-
-
-  .navbar {
-    width: 100%;
-
-  }
-
-  .company-logo {
-    display: none;
-  }
 
   /* Styling for the banner information*/
 
@@ -952,115 +806,6 @@ footer {
   .main-banner-information-cta-btn h3 {
 
     font-size: 5vw;
-  }
-
-  .mobile-logo {
-    display: block;
-  }
-
-  .mobile-logo img {
-    margin-top: 8vh;
-    width: 100vw;
-    position: absolute;
-    left: 2vw;
-  }
-
-  /*Styling for the banner image*/
-  .main-banner-image {
-    display: none;
-  }
-
-  /*Styling for the hook message*/
-
-  .hook-message {
-    text-align: center;
-    padding: 3vw;
-  }
-
-  .path-grid-wrapper {
-    display: block;
-
-  }
-
-  .step-1,
-  .step-2,
-  .step-3 {
-    margin-left: 0;
-    height: 5vh;
-  }
-
-  .path-grid-wrapper div {
-    width: 100%;
-  }
-
-  .hook-message-2 {
-    display: none;
-  }
-
-  .custom-carousel {
-    display: none;
-  }
-
-  .justification-text {
-    width: 100%;
-    margin-bottom: 5vh;
-  }
-
-  .justification-img {
-    display: none;
-  }
-
-  .justification-1,
-  .justification-2,
-  .justification-3 {
-    display: none;
-  }
-
-  .join-team-wrapper {
-    display: block;
-    height: 80vh;
-  }
-
-  .join-team-form {
-    display: block;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto;
-    gap: 0;
-
-  }
-
-
-
-  .form-title-wrapper {
-    text-align: center;
-  }
-
-  .join-team-form div {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
-  }
-
-  .join-team-form div input {
-    width: 100%;
-
-  }
-
-  .submit-wrapper {
-    margin-left: 0vh;
-  }
-
-  .submit-wrapper input {
-    margin-left: 0;
-    border-radius: 50vw;
-  }
-
-  .motive-wrapper {
-    width: 80%;
-  }
-
-  .motive-wrapper textarea {
-    width: 100%;
   }
 
   .main-banner-information-cta-btn h3{
