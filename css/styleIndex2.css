@@ -12,7 +12,7 @@
 
 header{
     background: linear-gradient(to right, #0d47a1, #1976d2, #29b6f6);
-    height: 70vh;
+    height: 75vh;
 }   
 
 
@@ -212,4 +212,62 @@ header{
 }
 .faq-element{
     background-color: #ffffff3e;
+}
+
+
+.bottom-cta-title{
+    margin-top: 7vh;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #29b6f6;
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.bottom-cta-form {
+    
+   text-align: center;
+}
+.bottom-cta-form form input{
+    width: 70vw;
+    margin-top: 4vh;
+    border-radius: 50vw;
+    text-align: center;
+    border: 0.1px solid rgba(0, 0, 0, 0.378);
+}
+.bottom-cta-form form textarea{
+    width: 70vw;
+    margin-top: 4vh;
+    height: 20vh;
+    text-align: center;
+}
+
+.bottom-cta-button{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    margin-bottom: 15vh;
+}
+
+.bottom-cta-button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    height: 5vh;
+    font-family: "Inter", sans-serif;
+    background-color: #29b6f6;
+    color: white;
+    text-align: center;
+    border: 0;
+    border-radius: 50vw;
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #29b6f6;
 }
