@@ -12,7 +12,7 @@
 
 header{
     background: linear-gradient(to right, #0d47a1, #1976d2, #29b6f6);
-    height: 75vh;
+    height: 100vh;
 }   
 
 
@@ -29,7 +29,16 @@ header{
     margin-top: 20vh;
 }
 
-.cta-banner{
+.banner-img { 
+    position: absolute;
+    opacity: 20%;
+    bottom: 20vh;
+    left: 45vw;
+    width: 175px;
+
+}
+.banner-information a{
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +46,7 @@ header{
     color: white;
     background-color: #2FC0C5;
     width: 60vw;
-    height: 5vh;
+    height: 10vh;
     margin-top: 3vh;
     margin-left: 5vw;
     text-align: center;
@@ -151,6 +160,8 @@ header{
     color: white;
     padding: 5vw;
     margin-top: 5vh;
+
+
 }
 
 .social-proof-content{
@@ -205,6 +216,7 @@ header{
 .faq-element-presentation{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .faq-element-presentation i{
@@ -270,4 +282,18 @@ footer{
     width: 100%;
     height: 30vh;
     background-color: #29b6f6;
+}
+
+@media (min-width: 375px) and (max-width:425px) {
+    header{
+        height: 110vh;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+
+    .value-element i{
+        font-size: 6vw;
+    }
+
 }
