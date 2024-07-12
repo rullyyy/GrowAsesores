@@ -1,0 +1,215 @@
+/*
+
+    Styling for the header
+
+*/
+
+
+.navbar{
+    background-color: transparent;
+}
+
+
+header{
+    background: linear-gradient(to right, #0d47a1, #1976d2, #29b6f6);
+    height: 70vh;
+}   
+
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+
+.banner-information h3{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    margin-left: 5vw;
+    margin-top: 20vh;
+}
+
+.cta-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-color: #2FC0C5;
+    width: 60vw;
+    height: 5vh;
+    margin-top: 3vh;
+    margin-left: 5vw;
+    text-align: center;
+    border-radius: 50vw;
+    font-size: 125%;
+}
+
+
+/*
+
+    Main section
+*/
+
+
+/*
+    Value element styling
+*/
+.value-element{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3vh;
+
+}
+
+.value-element h3{
+    font-size: 5vw;
+}
+
+.value-element-1, 
+    .value-element-2,
+        .value-element-3{
+            height: 15vh;
+            background-color: #2778aa1d;
+            border-radius: 50vw;
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+
+.value-element-1{
+    margin-top: 7vh;
+}
+
+.value-element h3{
+    font-weight: 200;
+    font-size: 130%;
+    margin-right: 10vw;
+}
+
+
+.dollar-icon{
+    font-size: 15vw;
+
+    color: #0078C4;
+}
+
+.user-icon{
+    color: #0078C4;
+    font-size: 15vw;
+
+}
+
+.world-icon{
+    font-size: 15vw;
+    color: #0078C4  ;
+
+
+}
+
+.logo-img-value-element{
+    margin-left: 8vw;
+}
+
+.main-value-element-text{
+    
+    margin-left: 3vw;
+}
+
+
+.testimonial h3, 
+.testimonial p,
+.testimonial ul li{
+    font-family: "Inter", sans-serif;
+
+    color: #43AED9;
+}
+
+.testimonial-img{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-information{
+    margin-top: 3vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+}
+
+
+.social-element{
+    background-color: #42b7ffa3;
+    border-radius: 8vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: white;
+    padding: 5vw;
+    margin-top: 5vh;
+}
+
+.social-proof-content{
+    margin-left: 5vw;
+  
+}
+
+.social-proof-img-wrapper img {
+    margin-left: 3vw;
+    border-radius: 100vw;
+    margin-bottom: 2vw;
+}
+
+.social-proof-name{
+    margin-left: 5vw;
+  
+}
+
+.social-proof-proffesion{
+    margin-left: 5vw;
+
+}
+
+.faq{
+    text-align: center;
+}
+
+.faq{
+    font-family: "Inter", sans-serif;
+    color: #43AED9;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.faq-title{
+    margin-top: 5vh;
+    
+}
+
+.faq-element{
+    margin-top: 5vh;
+}
+
+.faq-element-title{
+    text-align: left;
+    margin-right: 5vw;
+}
+
+.faq-element-description{
+    text-align: left;
+    display: none;
+}
+.faq-element-presentation{
+    display: flex;
+    align-items: center;
+}
+
+.faq-element-presentation i{
+    font-size: 7vw;
+}
+.faq-element{
+    background-color: #ffffff3e;
+}
