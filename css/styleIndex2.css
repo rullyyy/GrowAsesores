@@ -159,8 +159,9 @@ header{
 }
 
 .social-proof-img-wrapper img {
-    margin-left: 5vw;
+    margin-left: 3vw;
     border-radius: 100vw;
+    margin-bottom: 2vw;
 }
 
 .social-proof-name{
@@ -171,4 +172,44 @@ header{
 .social-proof-proffesion{
     margin-left: 5vw;
 
+}
+
+.faq{
+    text-align: center;
+}
+
+.faq{
+    font-family: "Inter", sans-serif;
+    color: #43AED9;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.faq-title{
+    margin-top: 5vh;
+    
+}
+
+.faq-element{
+    margin-top: 5vh;
+}
+
+.faq-element-title{
+    text-align: left;
+    margin-right: 5vw;
+}
+
+.faq-element-description{
+    text-align: left;
+    display: none;
+}
+.faq-element-presentation{
+    display: flex;
+    align-items: center;
+}
+
+.faq-element-presentation i{
+    font-size: 7vw;
+}
+.faq-element{
+    background-color: #ffffff3e;
 }
