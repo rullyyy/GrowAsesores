@@ -37,7 +37,7 @@ header{
     width: 175px;
 
 }
-.banner-information a{
+.banner-information div{
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -52,6 +52,7 @@ header{
     text-align: center;
     border-radius: 50vw;
     font-size: 125%;
+    
 }
 
 
@@ -153,8 +154,8 @@ header{
 
 
 .social-element{
-    background-color: #42b7ffa3;
-    border-radius: 8vw;
+    background-color: #42b7ffb3;
+    border-radius: 4vw;
     margin-left: 10vw;
     margin-right: 10vw;
     color: white;
@@ -277,23 +278,860 @@ header{
     border: 0;
     border-radius: 50vw;
 }
-
+.form-landing input{
+    height: 5vh;
+}
 footer{
     width: 100%;
     height: 30vh;
     background-color: #29b6f6;
 }
 
+@media (min-width: 320px) and (max-width:375px) {
+    header{
+        height: 80vh;
+    }
+}
+
 @media (min-width: 375px) and (max-width:425px) {
     header{
-        height: 110vh;
+        height: 80vh;
     }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
 
+    header{
+        height: 80vh;
+    }
     .value-element i{
         font-size: 6vw;
+    }
+
+    .testimonial-img img{
+        width: 70vw;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header{
+        height: 70vh;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .cta-navbar{
+        background-color: white;
+        width: 15vw;
+        height: 6vh;
+        border-radius: 2vw;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2vw;
+    }
+
+    .cta-navbar h3{
+        color: #29b6f6;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    .navbar-nav{
+        margin-left: 45vw;
+    }
+    .nav-link{
+        color: white;
+        font-size: 2vw;
+        font-family: "Inter", sans-serif;
+    
+    }
+
+    .banner-information div{
+        width: 30vw;
+        font-size: 2.5vw;
+    }
+
+    .logo-img-value-element{
+        width: 200px;
+    }
+
+    .main-value-element h3{
+        font-size: 3vw;
+    }
+    .value-element i{
+        font-size: 8vw ;
+
+    }
+
+    .value-element-1 h3,
+    .value-element-2 h3,
+    .value-element-3 h3{
+        font-size: 3vw;
+    }
+
+    .testimonials{
+        margin-top: 20vh;
+    }
+
+
+    .testimonial-information p {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .testimonial-information ul{
+        margin-left: 10vw;
+        font-size: 2vw;
+    }
+
+    .testimonial-information h3{
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .testimonial-img img{
+        width: 700px;
+    }
+
+    .social-element{
+        height: 70vh;
+    }
+
+    .social-proof-content{
+        font-size: 3vw;
+        font-weight: 200;
+
+    }
+    .social-proof-img-wrapper img{
+        margin-top: 3vh;
+        width: 150px;
+        margin-left: 5vw;
+    }
+    .social-proof-name h3{
+        font-size: 3vw;        
+        font-weight: 200;
+    }
+}
+
+@media (min-width: 987px) and (max-width: 1220px) {
+
+    header{
+        height: 70vh;
+    }
+
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .cta-navbar{
+        background-color: white;
+        width: 15vw;
+        height: 6vh;
+        border-radius: 2vw;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2vw;
+    }
+
+    .cta-navbar h3{
+        color: #29b6f6;
+        font-size: 2vw;
+        display: flex;
+        align-self: center;
+        margin-top: 1vh;
+        font-weight: 700;
+    }
+    .navbar-nav{
+        margin-left: 37vw;
+    }
+    .nav-link{
+        color: white;
+        font-size: 2vw;
+        font-family: "Inter", sans-serif;
+    
+    }
+
+    .banner-information div{
+        width: 30vw;
+        font-size: 2.5vw;
+    }   
+
+    .value-proposition{
+        display: flex;
+        background-color: #42a5e319;
+        border-radius: 20vw;
+        width: 95vw;
+        height: 40vh;
+        margin-top: 10vh;
+        margin-left: 3vw;
+        margin-right: 2vw;
+      
+    }
+
+
+    .value-element i{
+        margin-top: 4vh;
+    }
+    .value-element h3{
+        margin-left: 10vw;
+    }
+    .value-element{
+        margin: 0;  
+        justify-content: center;
+        background-color: transparent;
+        display: block;
+    }
+    .logo-img-value-element{
+        width: 200px;
+    }
+    .value-element i{
+        font-size: 10vw;
+    }
+    .value-element h3{
+        margin-top: 5vh;
+        font-size: 2vw;
+        
+    }
+    .main-value-element{
+        display: flex;
+        margin-top: 5vh;
+    }
+
+    .main-value-element h3{
+        font-size: 3vw;
+    }
+    .testimonials{
+        margin-top: 10vh;
+    }
+    .testimonial{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .testimonial-img img{
+        width: 500px;
+    }
+
+    .social-proof{
+        margin-top: 10vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .social-element{
+        margin: 0;
+        width: 30vw;
+    }
+
+    .social-proof-content{
+        margin: 0;
+        font-size: 1.65vw;
+    }
+
+    .social-proof-img-wrapper img{
+        margin: 0;
+        margin-top: 3vh;
+        width: 100px;
+        margin-bottom: 2vh;
+    }
+
+    .social-proof-name{
+        margin-top: 3vh;
+        margin: 0;
+    }
+
+    .social-proof-proffesion{
+        margin: 0;
+    }
+
+
+    .social-element{
+        height: 60vh;
+    }
+    .faq{
+        margin-top: 15vh;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+
+    .faq-title h3{
+        font-size: 3vw;
+    }
+    .faq-description p{
+        margin-top: 3vh;
+        font-size: 1.5vw;
+        text-align: center;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .faq-element-presentation i{
+        font-size: 2.5vw;
+    }   
+}
+@media (min-width: 1220px) and (max-width: 1440px) {
+    header{
+        height: 70vh;
+    }
+
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .cta-navbar{
+        background-color: white;
+        width: 15vw;
+        height: 6vh;
+        border-radius: 2vw;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2vw;
+    }
+
+    .cta-navbar h3{
+        color: #29b6f6;
+        font-size: 2vw;
+        display: flex;
+        align-self: center;
+        margin-top: 1vh;
+        font-weight: 700;
+    }
+    .navbar-nav{
+        margin-left: 45vw;
+    }
+    .nav-link{
+        color: white;
+        font-size: 2vw;
+        font-family: "Inter", sans-serif;
+    
+    }
+
+    .banner-information div{
+        width: 30vw;
+        font-size: 2.5vw;
+    }   
+
+    .value-proposition{
+        display: flex;
+        background-color: #42a5e319;
+        border-radius: 20vw;
+        width: 95vw;
+        height: 40vh;
+        margin-top: 10vh;
+        margin-left: 3vw;
+        margin-right: 2vw;
+      
+    }
+
+
+    .value-element i{
+        margin-top: 4vh;
+    }
+    .value-element h3{
+        margin-left: 10vw;
+    }
+    .value-element{
+        margin: 0;  
+        justify-content: center;
+        background-color: transparent;
+        display: block;
+    }
+    .logo-img-value-element{
+        width: 200px;
+    }
+    .value-element i{
+        font-size: 10vw;
+    }
+    .value-element h3{
+        margin-top: 5vh;
+        font-size: 2vw;
+        
+    }
+    .main-value-element{
+        display: flex;
+        margin-top: 5vh;
+    }
+
+    .main-value-element h3{
+        font-size: 3vw;
+    }
+    .testimonials{
+        margin-top: 10vh;
+    }
+    .testimonial{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .testimonial-img img{
+        width: 500px;
+    }
+
+    .social-proof{
+        margin-top: 10vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .social-element{
+        margin: 0;
+        width: 30vw;
+    }
+
+    .social-proof-content{
+        margin: 0;
+        font-size: 1.65vw;
+    }
+
+    .social-proof-img-wrapper img{
+        margin: 0;
+        margin-top: 3vh;
+        width: 100px;
+        margin-bottom: 2vh;
+    }
+
+    .social-proof-name{
+        margin-top: 3vh;
+        margin: 0;
+    }
+
+    .social-proof-proffesion{
+        margin: 0;
+    }
+
+
+    .social-element{
+        height: 60vh;
+    }
+    .faq{
+        margin-top: 15vh;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+
+    .faq-title h3{
+        font-size: 3vw;
+    }
+    .faq-description p{
+        margin-top: 3vh;
+        font-size: 1.5vw;
+        text-align: center;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .faq-element-presentation i{
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2000px   ) {
+
+    header{
+        height: 70vh;
+    }
+
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .cta-navbar{
+        background-color: white;
+        width: 15vw;
+        height: 6vh;
+        border-radius: 2vw;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2vw;
+    }
+
+    .cta-navbar h3{
+        color: #29b6f6;
+        font-size: 2vw;
+        display: flex;
+        align-self: center;
+        margin-top: 1vh;
+        font-weight: 700;
+    }
+    .navbar-nav{
+        margin-left: 45vw;
+    }
+    .nav-link{
+        color: white;
+        font-size: 2vw;
+        font-family: "Inter", sans-serif;
+    
+    }
+
+    .banner-information div{
+        width: 30vw;
+        font-size: 2.5vw;
+    }   
+
+    .value-proposition{
+        display: flex;
+        background-color: #42a5e319;
+        border-radius: 20vw;
+        width: 95vw;
+        height: 40vh;
+        margin-top: 10vh;
+        margin-left: 3vw;
+        margin-right: 2vw;
+      
+    }
+
+    .testimonials{
+        margin-top: 10vh;
+    }
+    .testimonial{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .testimonial-img img{
+        width: 1000px;
+    }
+
+    .testimonial-information h3{
+        font-size: 3vw;
+    }
+    .testimonial-information p{
+        font-size: 2vw;
+    }
+    .testimonial-information ul li{
+        font-size: 1.5vw;
+    }
+    .value-element i{
+        margin-top: 4vh;
+    }
+    .value-element h3{
+        margin-left: 10vw;
+    }
+    .value-element{
+        margin: 0;  
+        justify-content: center;
+        background-color: transparent;
+        display: block;
+    }
+    .logo-img-value-element{
+        width: 200px;
+    }
+    .value-element i{
+        font-size: 10vw;
+    }
+    .value-element h3{
+        margin-top: 5vh;
+        font-size: 2vw;
+        
+    }
+    .main-value-element{
+        display: flex;
+        margin-top: 5vh;
+    }
+
+    .main-value-element h3{
+        font-size: 3vw;
+    }
+    .testimonials{
+        margin-top: 10vh;
+    }
+    .testimonial{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .testimonial-img img{
+        width: 500px;
+    }
+
+    .social-proof{
+        margin-top: 10vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .social-element{
+        margin: 0;
+        width: 30vw;
+    }
+
+    .social-proof-content{
+        margin: 0;
+        font-size: 1.65vw;
+    }
+
+    .social-proof-img-wrapper img{
+        margin: 0;
+        margin-top: 3vh;
+        width: 100px;
+        margin-bottom: 2vh;
+    }
+
+    .social-proof-name{
+        margin-top: 3vh;
+        margin: 0;
+    }
+
+    .social-proof-proffesion{
+        margin: 0;
+    }
+
+
+    .social-element{
+        height: 60vh;
+    }
+    .faq{
+        margin-top: 15vh;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+
+    .faq-title h3{
+        font-size: 3vw;
+    }
+    .faq-description p{
+        margin-top: 3vh;
+        font-size: 1.5vw;
+        text-align: center;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .faq-element-presentation i{
+        font-size: 2.5vw;
+    }
+
+}
+
+@media (min-width: 2000px) and (max-width: 2560px   ) {
+
+    header{
+        height: 70vh;
+    }
+
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .cta-navbar{
+        background-color: white;
+        width: 15vw;
+        height: 6vh;
+        border-radius: 2vw;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2vw;
+    }
+
+    .cta-navbar h3{
+        color: #29b6f6;
+        font-size: 2vw;
+        display: flex;
+        align-self: center;
+        margin-top: 1vh;
+        font-weight: 700;
+    }
+    .navbar-nav{
+        margin-left: 50vw;
+    }
+    .nav-link{
+        color: white;
+        font-size: 2vw;
+
+        margin-left: 1.5vw;
+        font-family: "Inter", sans-serif;
+    
+    }
+
+
+    .banner-information div{
+        width: 30vw;
+        font-size: 2.5vw;
+    }   
+
+    .value-proposition{
+        display: flex;
+        background-color: #42a5e319;
+        border-radius: 20vw;
+        width: 95vw;
+        height: 40vh;
+        margin-top: 10vh;
+        margin-left: 3vw;
+        margin-right: 2vw;
+      
+    }
+
+
+    .value-element i{
+        margin-top: 4vh;
+    }
+    .value-element h3{
+        margin-left: 10vw;
+    }
+    .value-element{
+        margin: 0;  
+        justify-content: center;
+        background-color: transparent;
+        display: block;
+    }
+    .logo-img-value-element{
+        width: 200px;
+    }
+    .value-element i{
+        font-size: 10vw;
+    }
+    .value-element h3{
+        margin-top: 5vh;
+        font-size: 2vw;
+        
+    }
+    .main-value-element{
+        display: flex;
+        margin-top: 5vh;
+    }
+
+    .main-value-element h3{
+        font-size: 3vw;
+    }
+    .testimonials{
+        margin-top: 10vh;
+    }
+    .testimonial{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .testimonial-img img{
+        width: 1000px;
+    }
+
+    .testimonial-information h3{
+        font-size: 3vw;
+    }
+    .testimonial-information p{
+        font-size: 2vw;
+    }
+    .testimonial-information ul li{
+        font-size: 1.5vw;
+    }
+    .social-proof{
+        margin-top: 10vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .social-element{
+        margin: 0;
+        width: 30vw;
+    }
+
+    .social-proof-content{
+        margin: 0;
+        font-size: 1.65vw;
+    }
+
+    .social-proof-img-wrapper img{
+        margin: 0;
+        margin-top: 3vh;
+        width: 100px;
+        margin-bottom: 2vh;
+    }
+
+    .social-proof-name{
+        margin-top: 3vh;
+        margin: 0;
+    }
+
+    .social-proof-proffesion{
+        margin: 0;
+    }
+
+
+    .social-element{
+        height: 60vh;
+    }
+    .faq{
+        margin-top: 15vh;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+
+    .faq-title h3{
+        font-size: 3vw;
+    }
+    .faq-description p{
+        margin-top: 3vh;
+        font-size: 1.5vw;
+        text-align: center;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .faq-element-presentation i{
+        font-size: 2.5vw;
+    }
+    .faq-description p{
+        font-size: 1.75vw;
+    }
+    .faq-element-title{
+        font-size: 1.6vw; 
+    }
+    .bottom-cta-form form input{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bottom-cta-form form input{
+        font-size: 2vw;
+        width: 30vw;
+    }
+    .bottom-cta-title h3{
+        text-align: center;
+        font-size: 2vw;
+
+    }
+    .bottom-cta-form form textarea  {
+        font-size: 2vw;
+        width: 50vw;
+        border: 1px solid rgba(0, 0, 0, 0.388);
+    }
+    .bottom-cta-button button{
+        width: 20vw;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .social-proof-name h3{
+        font-size: 2.5vw;
+    }
+    .social-proof-proffesion{
+        font-size: 1.5vw;
+        font-weight: 200;
     }
 
 }
