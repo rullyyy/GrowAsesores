@@ -297,6 +297,10 @@ footer{
     background-color: #29b6f6;
 }
 
+
+/*
+    Responsiveness for mobile phones
+*/
 @media (min-width: 320px) and (max-width:375px) {
     header{
         height: 80vh;
@@ -546,7 +550,7 @@ footer{
     }
 
     .social-element{
-        height: 30vh;
+        height: 60vh;
     
     }
 
@@ -769,6 +773,10 @@ footer{
     }   
 }
 
+
+/*
+    Responsiveness for laptop 
+*/
 @media (min-width: 1221px) and (max-width: 1440px) {
     header{
         height: 85vh;
@@ -908,12 +916,13 @@ footer{
     }
     .social-element{
         margin: 0;
-        width: 30vw;
+        width: 25vw;
     }
 
     .social-proof-content{
+        margin-top: 3vh;
         margin: 0;
-        font-size: 1.65vw;
+        font-size: 1.2vw;
     }
 
     .social-proof-img-wrapper img{
@@ -924,18 +933,19 @@ footer{
     }
 
     .social-proof-name{
-        margin-top: 3vh;
         margin: 0;
     }
 
+    .social-proof-name h3{
+        font-size: 1.2vw;
+    }
     .social-proof-proffesion{
         margin: 0;
+        font-size: 1.2vw;
     }
 
 
-    .social-element{
-        height: 60vh;
-    }
+
     .faq{
         margin-top: 15vh;
         margin-left: 30vw;
@@ -1097,13 +1107,14 @@ footer{
     .social-element{
         margin: 0;
         width: 30vw;
+        
     }
 
     .social-proof-content{
         margin: 0;
         font-size: 1.65vw;
     }
-
+    
     .social-proof-img-wrapper img{
         margin: 0;
         margin-top: 3vh;
@@ -1120,9 +1131,8 @@ footer{
         margin: 0;
     }
 
-
     .social-element{
-        height: 60vh;
+        height: 80vh;
     }
     .faq{
         margin-top: 15vh;
@@ -1164,6 +1174,7 @@ footer{
         align-items: center;
         margin-left: 2vw;
         margin-right: 5vw;
+        margin-top: 0.5vw;
     }
 
     .cta-navbar h3{
@@ -1174,9 +1185,11 @@ footer{
         margin-top: 1vh;
         font-weight: 700;
     }
+
     .navbar-nav{
         margin-left: 45vw;
     }
+
     .nav-link{
         color: white;
         font-size: 2vw;
@@ -1190,10 +1203,10 @@ footer{
         font-size: 2.5vw;
     }   
 
-
     .logo-img-value-element{
         width: 150px;
     }
+
     .value-proposition{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -1202,7 +1215,7 @@ footer{
         width: 95vw;
         height: 40vh;
         margin-top: 10vh;
-        margin-left: 3vw;
+        margin-left: 2vw;
         margin-right: 2vw;
         
     }
@@ -1218,6 +1231,7 @@ footer{
        
         width: 20vw;
     }
+
     .value-element{
        width: 25vw;
         background-color: transparent;
@@ -1228,11 +1242,13 @@ footer{
     .logo-img-value-element{
         width: 200px;
     }
+
     .value-element i{
         margin-left: 15vw;
         font-size: 8vw;
         
     }
+
     .value-element h4{
         height: 5vh;
         margin-left: 10vw;
@@ -1265,9 +1281,11 @@ footer{
         font-size: 2.5vw;
         font-weight: 300;
     }
+
     .testimonials{
         margin-top: 10vh;
     }
+
     .testimonial{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1275,14 +1293,24 @@ footer{
     }
 
     .testimonial-img img{
-        width: 500px;
+        width: 700px;
     }
 
+    .testimonial-information h3{
+        font-size: 2.5vw;
+    }
+    .testimonial-information p{
+        font-size: 1.5vw;
+    }
+    .testimonial-information ul{
+        font-size: 1vw;
+    }
     .social-proof{
         margin-top: 10vh;
         display: flex;
         justify-content: space-around;
     }
+
     .social-element{
         margin: 0;
         width: 30vw;
@@ -1310,8 +1338,6 @@ footer{
         margin: 0;
     }
     
-
-
     .faq{
         margin-top: 15vh;
         margin-left: 30vw;
@@ -1321,6 +1347,7 @@ footer{
     .faq-title h3{
         font-size: 3vw;
     }
+
     .faq-description p{
         margin-top: 3vh;
         font-size: 1.5vw;
@@ -1328,11 +1355,16 @@ footer{
         margin-left: 3vw;
         margin-right: 3vw;
     }
+
     .faq-element-presentation i{
         font-size: 2.5vw;
     }
 
-
+    .form-landing input{
+        height: 6vh;
+        font-size: 1.1vw;
+        width: 5vw;
+    }
     .cta-navbar:hover{
         background-color: #1976d2;
         cursor: pointer;
@@ -1343,6 +1375,16 @@ footer{
         color: #2FC0C5;
         cursor: pointer;
 
+    }
+
+    .bottom-cta-button button{
+        font-size: 1.5vw;
+        font-weight: 600    ;
+        width: 20vw;
+    }
+
+    .bottom-cta-form textarea{
+        font-size: 1.2vw;   
     }
 
 }
@@ -1428,7 +1470,7 @@ footer{
         background-color: #42a5e319;
         border-radius: 20vw;
         width: 95vw;
-        height: 25vh;
+        height: 50vh;
         margin-top: 10vh;
         margin-left: 3vw;
         margin-right: 2vw;
@@ -1447,35 +1489,51 @@ footer{
         width: 200px;
     }
     .value-element i{
+        margin-top: -5vh;
         font-size: 6vw;
     }
     .value-element h4{
 
-        font-size: 2vw;
+        font-size: 1.8vw;
         padding: 2vw;
-        font-weight: 300;
+        font-weight: 400;
         
     }
 
+    .value-element-1 h4{
+        margin-left: 10vw;
+    }
+    
+    .value-element-2 h4{
+        margin-left: 10vw;
+    }
+    .value-element-3 h4{
+        margin-left: 10vw;
+    }
 
     .testimonials{
-        margin-top: 10vh;
+       
+        margin-top: 15vh;
     }
     .testimonial{
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
+        margin-top: 10vh;
     }
 
     .testimonial-img img{
-        width: 1000px;
+        width: 800px;
     }
 
     .testimonial-information h3{
-        font-size: 3vw;
+     
+        font-size: 2vw;
+        font-weight: 500;
     }
     .testimonial-information p{
         font-size: 2vw;
+        font-weight: 300;
     }
     .testimonial-information ul li{
         font-size: 1.5vw;
@@ -1488,6 +1546,7 @@ footer{
     .social-element{
         margin: 0;
         width: 30vw;
+        height: 70vh;
     }
 
     .social-proof-content{
@@ -1511,10 +1570,6 @@ footer{
         margin: 0;
     }
 
-
-    .social-element{
-        height: 60vh;
-    }
     .faq{
         margin-top: 15vh;
         margin-left: 30vw;
@@ -1540,14 +1595,14 @@ footer{
     .faq-element-title{
         font-size: 1.6vw; 
     }
-    .bottom-cta-form form input{
+    .bottom-cta-form{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .bottom-cta-form form input{
-        font-size: 2vw;
-        width: 30vw;
+      
+        justify-content: center;
+        font-size: 1.6vw;
+        width: 50vw;
     }
     .bottom-cta-title h3{
         text-align: center;
@@ -1555,7 +1610,7 @@ footer{
 
     }
     .bottom-cta-form form textarea  {
-        font-size: 2vw;
+        font-size: 1.6vw;
         width: 50vw;
         border: 1px solid rgba(0, 0, 0, 0.388);
     }
@@ -1802,23 +1857,188 @@ footer{
     }
 }
 
-@media (min-height: 500px) and (max-height: 759px) {
-    .social-element{
+/*
+    Height responsiveness
+*/
 
+/*
+    2001px   + devices
+*/
+
+@media (min-width: 2001px) and (max-width: 2299px) and (min-height:900px) and (max-height:1100px){
+
+    .social-element{
+      
+        height: 80vh;
+    }
+    .value-proposition {
+        height: 35vh;
+    }
+
+
+    .value-element h4{
+        font-size: 1.25vw;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 2001px) and (max-width: 2299px) and (min-height:720px) and (max-height:899px){
+    
+    .social-element{
+      
         height: 100vh;
     }
-
-    .value-element h3{
-        font-size: 1.5vw;
+    .value-proposition {
+        height: 35vh;
     }
-}   
 
 
-@media (min-height: 760px) and (max-height: 1079px) {
+    .value-element h4{
+        font-size: 1.25vw;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 2001px) and (max-width: 2299px) and (min-height:720px) and (max-height:836px){
+    
+    .cta-navbar{
+        margin-top: 2vh;
+    }
+    header{
+        height: 85vh;
+    }
+
+    .value-proposition {
+        height: 40vh;
+     
+    }
+
+
+    .value-element h4{
+       
+        font-size: 1.2vw;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 2001px) and (max-width: 2299px) and (min-height:650px) and (max-height:720px){
+    
+    .cta-navbar{
+        margin-top: 2vh;
+    }
+    header{
+        height: 95vh;
+    }
+
+    .value-proposition {
+        height: 50vh;
+     
+    }
+
     .social-element{
-
-        height: 70vh;
+        height: 120vh;
     }
-}   
 
+    .value-element h4{
+       
+        font-size: 1.1vw;
+        font-weight: 400;
+    }
+}
 
+@media (min-width: 2001px) and (max-width: 2299px) and (min-height:450px) and (max-height:650px){
+    
+    .cta-navbar{
+        margin-top: 2vh;
+    }
+    header{
+        height: 95vh;
+    }
+
+    .value-proposition {
+        height: 70vh;
+     
+    }
+
+    .social-element{
+        height: 120vh;
+    }
+
+    .value-element h4{
+       
+        font-size: 1.1vw;
+        font-weight: 400;
+    }
+}
+/*
+    1601px + devices
+*/
+@media (min-width: 1601px) and (max-width: 2000px) and (min-height:841px) and (max-height: 999px){
+    .value-proposition{
+
+        height: 40vh;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 2000px) and (min-height:600px) and (max-height:840px){
+    .main-value-element img{
+        width: 150px;
+    }
+    header{
+        height: 100vh;
+    }
+    .value-proposition{
+      
+        height: 50vh;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 2000px) and (min-height:400px) and (max-height: 599px){
+    .main-value-element img{
+        width: 150px;
+    }
+    header{
+        height: 120vh;
+    }
+    .value-proposition{
+
+        height: 80vh;
+    }
+}
+
+/*
+    1441px + devices
+*/
+
+@media (min-width: 1441px) and (max-width: 1600px) and (min-height:841px) and (max-height: 999px){
+    .value-proposition{
+
+        height: 40vh;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1600px) and (min-height:600px) and (max-height:840px){
+    .main-value-element img{
+        width: 150px;
+    }
+    header{
+        height: 100vh;
+    }
+    .value-proposition{
+      
+        height: 50vh;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1600px) and (min-height:400px) and (max-height: 599px){
+    .main-value-element img{
+        width: 150px;
+    }
+    header{
+        height: 120vh;
+    }
+    .value-proposition{
+
+        height: 80vh;
+    }
+}
