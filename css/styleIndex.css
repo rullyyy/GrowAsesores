@@ -293,26 +293,176 @@ footer{
     }
 }
 
-@media (min-width: 375px) and (max-width:425px) {
+@media (min-width: 320px) and (max-width:375px) and (max-height: 759px) and (min-height:685px) {
     header{
-        height: 80vh;
+        height: 90vh;
     }
-}
 
-@media (min-width: 425px) and (max-width: 768px) {
+    .nav-link{
+        color: white;
 
-    header{
-        height: 80vh;
-    }
-    .value-element i{
         font-size: 6vw;
     }
+    .cta-navbar{
+        color: white;
+        display: none;
+    }
+    .main-value-element-txt-wrapper h4{
+        margin-left: 2vw;
+        margin-right: 2vw;
+        font-size: 5vw;
+        font-weight: 300;
+        text-align: center;
 
-    .testimonial-img img{
-        width: 70vw;
+    }
+
+    .value-element-1 h4,
+    .value-element-2 h4,
+    .value-element-3 h4{
+        font-size: 5vw;
+        font-weight: 300;
+        margin-right: 10vw;
+    }
+
+    .social-proof div{
+        height: 50vh;
+    }
+    .social-proof-name{
+        margin-top: -40vh;
+    }
+    .social-proof-proffesion{
+        font-weight: 200;
+        margin-top: -45vh;
+
+    }
+
+    .navbar-collapse{
+        background-color: #89d2ff34;
+        margin-bottom: -5vh;
+        text-align: center;
     }
 
 }
+
+
+@media (min-width: 375px) and (max-width:425px) {
+    header{
+        height: 90vh;
+    }
+
+    .main-value-element{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-img-value-element{
+        margin-left: 7vw;
+    }
+
+    .main-value-element-txt-wrapper h4{
+        margin-left: 5vw;
+        font-weight: 300;
+        margin-right: 5vw;
+    }
+
+    .value-element-1 h4,
+    .value-element-2 h4,
+    .value-element-3 h4{
+        font-weight: 300;
+        margin-right: 7vw;
+    }
+    .cta-navbar{
+        display: none;
+    }
+
+    .navbar-collapse{
+        background-color: #89d2ff34;
+        margin-bottom: -5vh;
+        text-align: center;
+      
+    }
+
+    .nav-link{
+        color: white;
+
+        font-size: 5vw;
+    }
+
+    .social-proof div{
+        height: 50vh;
+    }
+    .social-proof-name{
+        margin-top: -40vh;
+    }
+    .social-proof-proffesion{
+        font-weight: 200;
+        margin-top: -45vh;
+
+    }
+
+}
+
+@media (min-width: 426px) and (max-width:767px) {
+
+    header{
+
+        height: 90vh;
+    }
+    .main-value-element-txt-wrapper h4{
+        margin-right: 6vw;
+        font-weight: 200;
+    }
+
+    .cta-navbar{
+        display: none;
+    
+    }
+
+    .navbar-collapse{
+        background-color: #89d2ff34;
+        margin-bottom: -5vh;
+        text-align: center;
+    
+      
+    }
+
+    .nav-link{
+        color: white;
+
+        font-size: 5vw;
+    }
+
+    .value-element-1 h4,
+    .value-element-2 h4,
+    .value-element-3 h4{
+        font-weight: 300;
+        margin-right: 7vw;
+    }
+
+    .social-proof div{
+        height: 50vh;
+    }
+    .social-proof-name{
+        margin-top: -40vh;
+    }
+    .social-proof-proffesion{
+        font-weight: 200;
+        margin-top: -45vh;
+
+    }
+    .testimonial-img img{
+        width: 450px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    header{
+        height: 100vh;
+    }
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     header{
@@ -740,7 +890,7 @@ footer{
     }
 }
 
-@media (min-width: 1440px) and (max-width: 2000px   ) {
+@media (min-width: 1440px) and (max-width: 2000px) {
 
     header{
         height: 70vh;
@@ -924,7 +1074,7 @@ footer{
 
 }
 
-@media (min-width: 2000px) and (max-width: 2560px   ) {
+@media (min-width: 2000px) and (max-width: 2560px) {
 
     header{
         height: 70vh;
@@ -1164,3 +1314,5 @@ footer{
         height: 80vh;
     }
 }   
+
+
