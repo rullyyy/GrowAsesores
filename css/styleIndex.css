@@ -457,16 +457,9 @@ footer{
 }
 
 
-@media (min-width: 768px) and (max-width: 1000px) {
-    header{
-        height: 100vh;
-    }
-}
-
-
 @media (min-width: 768px) and (max-width: 1024px) {
     header{
-        height: 70vh;
+        height: 90vh;
     }
     .navbar{
         display: flex;
@@ -475,14 +468,7 @@ footer{
       
     }
     .cta-navbar{
-        background-color: white;
-        width: 15vw;
-        height: 6vh;
-        border-radius: 2vw;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 2vw;
+        display: none;
     }
 
     .cta-navbar h3{
@@ -491,13 +477,15 @@ footer{
         font-weight: 500;
     }
     .navbar-nav{
-        margin-left: 45vw;
+       text-align: center;
+       background-color: #29b5f627;
     }
     .nav-link{
         color: white;
-        font-size: 2vw;
+        font-size: 3vw;
+        margin-left: 0  ;
         font-family: "Inter", sans-serif;
-    
+        
     }
 
     .banner-information div{
@@ -509,18 +497,20 @@ footer{
         width: 200px;
     }
 
-    .main-value-element h3{
+    .main-value-element h4{
         font-size: 3vw;
+        font-weight: 300;
     }
     .value-element i{
         font-size: 8vw ;
 
     }
 
-    .value-element-1 h3,
-    .value-element-2 h3,
-    .value-element-3 h3{
+    .value-element-1 h4,
+    .value-element-2 h4,
+    .value-element-3 h4{
         font-size: 3vw;
+        font-weight: 300;
     }
 
     .testimonials{
@@ -548,7 +538,8 @@ footer{
     }
 
     .social-element{
-        height: 70vh;
+        height: 30vh;
+    
     }
 
     .social-proof-content{
@@ -565,12 +556,14 @@ footer{
         font-size: 3vw;        
         font-weight: 200;
     }
+
+    
 }
 
 @media (min-width: 987px) and (max-width: 1220px) {
 
     header{
-        height: 70vh;
+        height: 85vh;
     }
 
     .navbar-brand img{
@@ -603,6 +596,7 @@ footer{
     }
     .navbar-nav{
         margin-left: 37vw;
+        background-color: transparent;
     }
     .nav-link{
         color: white;
@@ -629,14 +623,12 @@ footer{
     }
 
 
-    .value-element i{
-        margin-top: 4vh;
-    }
+
     .value-element h3{
         margin-left: 10vw;
     }
     .value-element{
-        margin: 0;  
+ 
         justify-content: center;
         background-color: transparent;
         display: block;
@@ -647,18 +639,48 @@ footer{
     .value-element i{
         font-size: 10vw;
     }
-    .value-element h3{
+    .value-element h4{
+        height: 20vh;
         margin-top: 5vh;
         font-size: 2vw;
+        font-weight: 300;
+        text-align: center;
         
+    }
+
+    .value-proposition{
+        display: flex;
+        align-items: center;
     }
     .main-value-element{
         display: flex;
+        background-color: #1976d21a;
+        width: 70vw;
+        height: 30vh;
+        margin-left: 15vw;
+        padding: 5%;
         margin-top: 5vh;
+        border-radius: 2vw;
+        align-items: center;
+        text-align: center;
     }
 
-    .main-value-element h3{
+    .value-proposition div{
+        margin-top: -6vh ;
+    }
+    .main-value-element img{
+        margin-left: 0  ;
+    }
+
+    .main-value-element h4{
         font-size: 3vw;
+        font-weight: 300;
+        margin-left: 3vw;
+
+    }
+
+    .value-element-1{
+        margin-top: 2vw;
     }
     .testimonials{
         margin-top: 10vh;
@@ -731,18 +753,13 @@ footer{
 
 @media (min-width: 1220px) and (max-width: 1440px) {
     header{
-        height: 70vh;
+        height: 85vh;
     }
 
     .navbar-brand img{
         width: 200px;
     }
-    .navbar{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
-    }
+
     .cta-navbar{
         background-color: white;
         width: 15vw;
@@ -752,6 +769,7 @@ footer{
         justify-content: center;
         align-items: center;
         margin-left: 2vw;
+        margin-right: 5vw;
     }
 
     .cta-navbar h3{
@@ -763,7 +781,7 @@ footer{
         font-weight: 700;
     }
     .navbar-nav{
-        margin-left: 45vw;
+        margin-left: 40vw;
     }
     .nav-link{
         color: white;
@@ -781,45 +799,54 @@ footer{
         display: flex;
         background-color: #42a5e319;
         border-radius: 20vw;
-        width: 95vw;
-        height: 40vh;
+        width: 80vw;
+        justify-content: center;
+        height: 25vh;
         margin-top: 10vh;
-        margin-left: 3vw;
+        margin-left: 12vw;
         margin-right: 2vw;
       
     }
 
-
-    .value-element i{
-        margin-top: 4vh;
-    }
     .value-element h3{
         margin-left: 10vw;
     }
+
     .value-element{
         margin: 0;  
         justify-content: center;
         background-color: transparent;
         display: block;
     }
+
     .logo-img-value-element{
-        width: 200px;
+        width: 150px;
     }
+
     .value-element i{
-        font-size: 10vw;
+        font-size: 5vw;
+        margin-top: 2vh;
     }
-    .value-element h3{
-        margin-top: 5vh;
+    .value-element h4{
+        margin-top: 1vw;
+        font-weight: 300;
         font-size: 2vw;
         
     }
     .main-value-element{
         display: flex;
         margin-top: 5vh;
+        width: 60vw;
+        height: 20vh;
+        text-align: center;
+        align-items: center;
+        margin-left: 18vw;
+        
     }
 
-    .main-value-element h3{
-        font-size: 3vw;
+    .main-value-element h4{
+        font-size: 2.5vw;
+        font-weight: 300;
     }
     .testimonials{
         margin-top: 10vh;
@@ -890,10 +917,10 @@ footer{
     }
 }
 
-@media (min-width: 1440px) and (max-width: 2000px) {
+@media (min-width: 1441px) and (max-width: 2000px) {
 
     header{
-        height: 70vh;
+        height: 80vh;
     }
 
     .navbar-brand img{
@@ -943,10 +970,11 @@ footer{
         display: flex;
         background-color: #42a5e319;
         border-radius: 20vw;
-        width: 95vw;
-        height: 40vh;
+        width: 80vw;
+        justify-content: center;
+        height: 25vh;
         margin-top: 10vh;
-        margin-left: 3vw;
+        margin-left: 12vw;
         margin-right: 2vw;
       
     }
@@ -973,36 +1001,59 @@ footer{
     .testimonial-information ul li{
         font-size: 1.5vw;
     }
-    .value-element i{
-        margin-top: 4vh;
+    .value-proposition{
+        display: flex;
+        background-color: #42a5e319;
+        border-radius: 20vw;
+        width: 80vw;
+        justify-content: center;
+        height: 25vh;
+        margin-top: 10vh;
+        margin-left: 12vw;
+        margin-right: 2vw;
+      
     }
+
     .value-element h3{
         margin-left: 10vw;
     }
+
     .value-element{
         margin: 0;  
         justify-content: center;
         background-color: transparent;
         display: block;
     }
+
     .logo-img-value-element{
-        width: 200px;
+        width: 150px;
     }
+
     .value-element i{
-        font-size: 10vw;
+        font-size: 5vw;
+        margin-top: 2vh;
     }
-    .value-element h3{
-        margin-top: 5vh;
+    .value-element h4{
+        margin-top: 1vw;
+        font-weight: 300;
         font-size: 2vw;
         
     }
     .main-value-element{
         display: flex;
         margin-top: 5vh;
+        width: 60vw;
+        height: 20vh;
+        text-align: center;
+        align-items: center;
+        margin-left: 16vw;
+        
     }
 
-    .main-value-element h3{
-        font-size: 3vw;
+    .main-value-element h4{
+        font-size: 2.5vw;
+        font-weight: 300;
+        margin-left: 3vw;
     }
     .testimonials{
         margin-top: 10vh;
@@ -1014,9 +1065,15 @@ footer{
     }
 
     .testimonial-img img{
-        width: 500px;
+        width: 600px;
     }
 
+    .testimonial-information h3{
+        font-size: 2vw;
+    }
+    .testimonial-information p{
+        font-size: 1.5vw;
+    }
     .social-proof{
         margin-top: 10vh;
         display: flex;
@@ -1074,7 +1131,7 @@ footer{
 
 }
 
-@media (min-width: 2000px) and (max-width: 2560px) {
+@media (min-width: 2001px) and (max-width: 2560px) {
 
     header{
         height: 70vh;
@@ -1285,16 +1342,6 @@ footer{
         font-weight: 200;
     }
 
-}
-
-@media(min-width:1750px) and (max-width: 2108px){
-    .value-element i{
-        font-size: 5vw;
-    }
-    .value-element-1{
-   
-        font-size: 1vw;
-    }
 }
 
 @media (min-height: 500px) and (max-height: 759px) {
