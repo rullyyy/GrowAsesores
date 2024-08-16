@@ -162,7 +162,9 @@ header{
     text-align: left;
 }
 
-
+.social-proof{
+    margin-bottom: 5vh;
+}
 .social-element{
     background-color: #42b7ffb3;
     border-radius: 4vw;
