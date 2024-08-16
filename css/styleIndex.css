@@ -5,23 +5,38 @@
 */
 
 
-.navbar{
+.navbar {
     background-color: transparent;
 }
 
 
-header{
+header {
     background: linear-gradient(to right, #0d47a1, #1976d2, #29b6f6);
     height: 100vh;
-}   
+}
+
+.cta-navbar {
+    display: none;
+}
+
+.nav-link {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 150%;
+    margin-top: 1vh;
+    text-decoration: underline;
+    border-radius: 10vw;
+    text-align: center;
+    font-weight: 600;
+}
 
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 
 }
 
-.banner-information h3{
+.banner-information h3 {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 48px;
@@ -29,15 +44,8 @@ header{
     margin-top: 20vh;
 }
 
-.banner-img { 
-    position: absolute;
-    opacity: 20%;
-    bottom: 20vh;
-    left: 45vw;
-    width: 175px;
 
-}
-.banner-information div{
+.banner-information div {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -51,8 +59,9 @@ header{
     margin-left: 5vw;
     text-align: center;
     border-radius: 50vw;
-    font-size: 125%;
-    
+    font-size: 150%;
+    font-weight: 600;
+
 }
 
 
@@ -67,105 +76,137 @@ header{
     Value element styling
 */
 
-.main-value-element{
+.main-value-element {
     display: flex;
     align-items: center;
     margin-top: 5vh;
+    margin-right: 5%;
 }
 
-.main-value-element h4{
+.main-value-element h4 {
     margin-left: 4vw;
     text-align: center;
+    font-weight: 100;
 }
-.value-element{
+
+.value-element {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1.5fr;
+    margin-right: 3vw;
+    margin-left: 3vw;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    margin-top: 3vh;
+
+
+}
+
+.logo-img-value-element {
+    width: 25%;
+}
+
+
+.value-proposition {
+    margin-top: 20%;
+    width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    margin-bottom: 20%;
+
+}
+
+.value-element-1 {
+
+    margin-bottom: 10%;
+}
+
+.value-element-2 {
+    margin-bottom: 5%;
+}
+
+.value-element-1,
+.value-element-2,
+.value-element-3 {
+
+    height: 100%;
+    background-color: #2778aa1d;
+    border-radius: 50vw;
 
 }
 
 
 
-.value-element-1, 
-    .value-element-2,
-        .value-element-3{
-            height: 15vh;
-            background-color: #2778aa1d;
-            border-radius: 50vw;
-            margin-left: 5vw;
-            margin-right: 5vw;
-        }
-
-.value-element-1{
-    margin-top: 7vh;
-}
-
-.value-element h4{
+.value-element h4 {
     font-weight: 200;
     font-size: 130%;
     margin-right: 10vw;
 }
 
 
-.dollar-icon{
-    font-size: 15vw;
+.dollar-icon {
+    font-size: 400%;
 
     color: #0078C4;
 }
 
-.user-icon{
+.user-icon {
     color: #0078C4;
-    font-size: 15vw;
-
-}
-
-.world-icon{
-    font-size: 15vw;
-    color: #0078C4  ;
+    font-size: 400%;
 
 
 }
 
-.logo-img-value-element{
+.world-icon {
+
+    font-size: 400%;
+    color: #0078C4;
+
+
+}
+
+.logo-img-value-element {
     margin-left: 8vw;
 }
 
-.main-value-element-text{
-    
+.main-value-element-text {
+
     margin-left: 3vw;
 }
 
 
-.testimonial h3, 
-.testimonial p,
-.testimonial ul li{
+.testimonial h3 {
     font-family: "Inter", sans-serif;
-
+    font-weight: 600;
     color: #43AED9;
 }
 
-.testimonial-img{
+.testimonial ul li {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 125%;
+    color: #43AED9;
+}
+
+.testimonial-img {
     margin-top: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.testimonial-information{
+.testimonial-information {
     margin-top: 3vh;
     margin-left: 10vw;
     margin-right: 10vw;
-    text-align: left;
+    text-align: center;
 }
 
-.social-proof{
+.social-proof {
     margin-bottom: 5vh;
 }
-.social-element{
+
+.social-element {
     background-color: #42b7ffb3;
     border-radius: 4vw;
     margin-left: 10vw;
@@ -177,9 +218,9 @@ header{
 
 }
 
-.social-proof-content{
+.social-proof-content {
     margin-left: 5vw;
-  
+
 }
 
 .social-proof-img-wrapper img {
@@ -188,59 +229,62 @@ header{
     margin-bottom: 2vw;
 }
 
-.social-proof-name{
-    margin-left: 5vw;
-  
-}
-
-.social-proof-proffesion{
+.social-proof-name {
     margin-left: 5vw;
 
 }
 
-.faq{
+.social-proof-proffesion {
+    margin-left: 5vw;
+
+}
+
+.faq {
     text-align: center;
 }
 
-.faq{
+.faq {
     font-family: "Inter", sans-serif;
     color: #43AED9;
     margin-left: 10vw;
     margin-right: 10vw;
 }
-.faq-title{
+
+.faq-title {
     margin-top: 5vh;
-    
+
 }
 
-.faq-element{
+.faq-element {
     margin-top: 5vh;
 }
 
-.faq-element-title{
+.faq-element-title {
     text-align: left;
     margin-right: 5vw;
 }
 
-.faq-element-description{
+.faq-element-description {
     text-align: left;
     display: none;
 }
-.faq-element-presentation{
+
+.faq-element-presentation {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.faq-element-presentation i{
+.faq-element-presentation i {
     font-size: 7vw;
 }
-.faq-element{
+
+.faq-element {
     background-color: #ffffff3e;
 }
 
 
-.bottom-cta-title{
+.bottom-cta-title {
     margin-top: 7vh;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -252,24 +296,26 @@ header{
 }
 
 .bottom-cta-form {
-    
-   text-align: center;
+
+    text-align: center;
 }
-.bottom-cta-form form input{
+
+.bottom-cta-form form input {
     width: 70vw;
     margin-top: 4vh;
     border-radius: 50vw;
     text-align: center;
     border: 0.1px solid rgba(0, 0, 0, 0.378);
 }
-.bottom-cta-form form textarea{
+
+.bottom-cta-form form textarea {
     width: 70vw;
     margin-top: 4vh;
     height: 20vh;
     text-align: center;
 }
 
-.bottom-cta-button{
+.bottom-cta-button {
     margin-top: 5vh;
     display: flex;
     justify-content: center;
@@ -277,7 +323,7 @@ header{
     margin-bottom: 15vh;
 }
 
-.bottom-cta-button button{
+.bottom-cta-button button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -290,1757 +336,120 @@ header{
     border: 0;
     border-radius: 50vw;
 }
-.form-landing input{
+
+.form-landing input {
     height: 5vh;
 }
-footer{
+
+footer {
     width: 100%;
     height: 30vh;
     background-color: #29b6f6;
 }
 
 
-/*
-    Responsiveness for mobile phones
-*/
-@media (min-width: 320px) and (max-width:375px) {
-    header{
-        height: 80vh;
-    }
-}
-
-@media (min-width: 320px) and (max-width:375px) and (max-height: 759px) and (min-height:685px) {
-    header{
-        height: 90vh;
+@media (min-width: 900px) {
+    .banner-information h3 {
+        font-size: 300%;
     }
 
-    .nav-link{
-        color: white;
-
-        font-size: 6vw;
-    }
-    .cta-navbar{
-        color: white;
-        display: none;
-    }
-    .main-value-element-txt-wrapper h4{
-        margin-left: 2vw;
-        margin-right: 2vw;
-        font-size: 5vw;
-        font-weight: 300;
-        text-align: center;
-
-    }
-
-    .value-element-1 h4,
-    .value-element-2 h4,
-    .value-element-3 h4{
-        font-size: 5vw;
-        font-weight: 300;
-        margin-right: 10vw;
-    }
-
-    .social-proof div{
-        height: 50vh;
-    }
-    .social-proof-name{
-        margin-top: -40vh;
-    }
-    .social-proof-proffesion{
-        font-weight: 200;
-        margin-top: -45vh;
-
-    }
-
-    .navbar-collapse{
-        background-color: #89d2ff34;
-        margin-bottom: -5vh;
-        text-align: center;
-    }
-
-}
-
-@media (min-width: 375px) and (max-width:425px) {
-    header{
-        height: 90vh;
-    }
-
-    .main-value-element{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .logo-img-value-element{
-        margin-left: 7vw;
+    .banner-information div {
+        width: 30%;
     }
 
     .main-value-element-txt-wrapper h4{
-        margin-left: 5vw;
-        font-weight: 300;
-        margin-right: 5vw;
+        font-size: 200%;
     }
-
-    .value-element-1 h4,
-    .value-element-2 h4,
-    .value-element-3 h4{
-        font-weight: 300;
-        margin-right: 7vw;
+    .dollar-icon,
+    .world-icon,
+    .user-icon {
+        font-size: 6rem;
     }
-    .cta-navbar{
-        display: none;
-    }
-
-    .navbar-collapse{
-        background-color: #89d2ff34;
-        margin-bottom: -5vh;
-        text-align: center;
-      
-    }
-
-    .nav-link{
-        color: white;
-
-        font-size: 5vw;
-    }
-
-    .social-proof div{
-        height: 50vh;
-    }
-    .social-proof-name{
-        margin-top: -40vh;
-    }
-    .social-proof-proffesion{
-        font-weight: 200;
-        margin-top: -45vh;
-
-    }
-
-}
-
-@media (min-width: 426px) and (max-width:767px) {
-
-    header{
-
-        height: 90vh;
-    }
-    .main-value-element-txt-wrapper h4{
-        margin-right: 6vw;
-        font-weight: 200;
-    }
-
-    .cta-navbar{
-        display: none;
-    
-    }
-
-    .navbar-collapse{
-        background-color: #89d2ff34;
-        margin-bottom: -5vh;
-        text-align: center;
-    
-      
-    }
-
-    .nav-link{
-        color: white;
-
-        font-size: 5vw;
-    }
-
-    .value-element-1 h4,
-    .value-element-2 h4,
-    .value-element-3 h4{
-        font-weight: 300;
-        margin-right: 7vw;
-    }
-
-    .social-proof div{
-        height: 50vh;
-    }
-    .social-proof-name{
-        margin-top: -40vh;
-    }
-    .social-proof-proffesion{
-        font-weight: 200;
-        margin-top: -45vh;
-
-    }
-    .testimonial-img img{
-        width: 450px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    header{
-        height: 90vh;
-    }
-    .navbar{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
-    }
-    .cta-navbar{
-        display: none;
-    }
-
-    .cta-navbar h3{
-        color: #29b6f6;
-        font-size: 3vw;
-        font-weight: 500;
-    }
-    .navbar-nav{
-       text-align: center;
-       background-color: #29b5f627;
-    }
-    .nav-link{
-        color: white;
-        font-size: 3vw;
-        margin-left: 0  ;
-        font-family: "Inter", sans-serif;
-        
-    }
-
-    .banner-information div{
-        width: 30vw;
-        font-size: 2.5vw;
-    }
-
-    .logo-img-value-element{
-        width: 200px;
-    }
-
-    .main-value-element h4{
-        font-size: 3vw;
-        font-weight: 300;
-    }
-    .value-element i{
-        font-size: 8vw ;
-
-    }
-
-    .value-element-1 h4,
-    .value-element-2 h4,
-    .value-element-3 h4{
-        font-size: 3vw;
-        font-weight: 300;
+    .value-proposition{
+        margin-bottom: 15%;
     }
 
     .testimonials{
-        margin-top: 20vh;
+        margin-bottom: 15%;
     }
-
-
-    .testimonial-information p {
-        font-size: 2.5vw;
-        text-align: center;
-    }
-
-    .testimonial-information ul{
-        margin-left: 10vw;
-        font-size: 2vw;
-    }
-
-    .testimonial-information h3{
-        font-size: 4vw;
-        text-align: center;
-    }
-
-    .testimonial-img img{
-        width: 700px;
-    }
-
-    .social-element{
-        height: 60vh;
-    
-    }
-
-    .social-proof-content{
-        font-size: 3vw;
-        font-weight: 200;
-
-    }
-    .social-proof-img-wrapper img{
-        margin-top: 3vh;
-        width: 150px;
-        margin-left: 5vw;
-    }
-    .social-proof-name h3{
-        font-size: 3vw;        
-        font-weight: 200;
-    }
-
-    
-}
-
-@media (min-width: 987px) and (max-width: 1220px) {
-
-    header{
-        height: 85vh;
-    }
-
-    .navbar-brand img{
-        width: 200px;
-    }
-    .navbar{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
-    }
-    .cta-navbar{
-        background-color: white;
-        width: 15vw;
-        height: 6vh;
-        border-radius: 2vw;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 2vw;
-    }
-
-    .cta-navbar h3{
-        color: #29b6f6;
-        font-size: 2vw;
-        display: flex;
-        align-self: center;
-        margin-top: 1vh;
-        font-weight: 700;
-    }
-    .navbar-nav{
-        margin-left: 37vw;
-        background-color: transparent;
-    }
-    .nav-link{
-        color: white;
-        font-size: 2vw;
-        font-family: "Inter", sans-serif;
-    
-    }
-
-    .banner-information div{
-        width: 30vw;
-        font-size: 2.5vw;
-    }   
-
-    .value-proposition{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: #42a5e319;
-        border-radius: 20vw;
-        width: 95vw;
-        height: 40vh;
-        margin-top: 10vh;
-        margin-left: 3vw;
-        margin-right: 2vw;
-        
-    }
-
-    .value-proposition div{
-
-        margin-left: -1vw;
-
-
-    }
-
-    .value-element h4{
-       
-        width: 20vw;
-    }
-    .value-element{
-       width: 25vw;
-        background-color: transparent;
-        display: block;
-    }
-
-    .logo-img-value-element{
-        width: 200px;
-    }
-    .value-element i{
-        margin-left: 15vw;
-        font-size: 10vw;
-        
-    }
-    .value-element h4{
-        height: 5vh;
-        margin-left: 10vw;
-        margin-top: 5vh;
-        font-size: 2.5vw;
-        font-weight: 300;
-        text-align: center;
-        
-    }
-
-    .value-proposition{
-        display: flex;
-        align-items: center;
-    }
-    .main-value-element{
-        display: flex;
-        background-color: #1976d21a;
-        width: 70vw;
-        height: 30vh;
-        margin-left: 15vw;
-        padding: 5%;
-        margin-top: 5vh;
-        border-radius: 2vw;
-        align-items: center;
-        text-align: center;
-    }
-
-    .value-proposition div{
-        margin-top: -6vh ;
-    }
-    .main-value-element img{
-        margin-left: 0  ;
-    }
-
-    .main-value-element h4{
-        font-size: 3vw;
-        font-weight: 300;
-        margin-left: 3vw;
-
-    }
-
-    .value-element-1{
-        margin-top: 2vw;
-    }
-    .testimonials{
-        margin-top: 10vh;
-    }
-    .testimonial{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-    }
-
-    .testimonial-img img{
-        width: 500px;
+    .testimonial-img img {
+        width: 50%;
+        margin-bottom: 3rem;
     }
 
     .social-proof{
-        margin-top: 10vh;
-        display: flex;
-        justify-content: space-around;
+        justify-content: center;
     }
+
     .social-element{
-        margin: 0;
-        width: 30vw;
+        width: 80%;
     }
 
     .social-proof-content{
-        margin: 0;
-        font-size: 1.65vw;
+        font-size: 2rem;
     }
 
     .social-proof-img-wrapper img{
-        margin: 0;
-        margin-top: 3vh;
-        width: 100px;
-        margin-bottom: 2vh;
+        width: 20%;
     }
 
-    .social-proof-name{
-        margin-top: 3vh;
-        margin: 0;
-    }
-
-    .social-proof-proffesion{
-        margin: 0;
-    }
-
-
-    .social-element{
-        height: 60vh;
-    }
-    .faq{
-        margin-top: 15vh;
-        margin-left: 30vw;
-        margin-right: 30vw;
-    }
-
-    .faq-title h3{
-        font-size: 3vw;
-    }
-    .faq-description p{
-        margin-top: 3vh;
-        font-size: 1.5vw;
-        text-align: center;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-    .faq-element-presentation i{
-        font-size: 2.5vw;
-    }   
 }
 
-
-/*
-    Responsiveness for laptop 
-*/
-@media (min-width: 1221px) and (max-width: 1440px) {
-    header{
-        height: 85vh;
-    }
+@media (min-width: 1200px) {
 
     .navbar-brand img{
-        width: 200px;
+        width: 40%;
+    }
+  
+
+    .navbar-nav a {
+        text-decoration: none;
+        font-size: 160%;
+    }
+
+    .banner-information h3{
+        margin-top: 10vh;
     }
 
     .cta-navbar{
-        background-color: white;
-        width: 15vw;
-        height: 6vh;
-        border-radius: 2vw;  
+        display: flex;
+        width: 20vw;
+        text-align: center;
+        background-color: #42e2e7;
+        margin-left: 4%;
+        margin-right: 10%;
+    }
+    .cta-navbar h3{
+        width: 100%;
+        color: white;
+    }
+    .main-value-element{
+        width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin-left: 2vw;
-        margin-right: 5vw;
+ 
     }
 
-    .cta-navbar h3{
-        color: #29b6f6;
-        font-size: 2vw;
-        display: flex;
-        align-self: center;
-        margin-top: 1vh;
-        font-weight: 700;
-    }
-    .navbar-nav{
-        margin-left: 40vw;
-    }
-    .nav-link{
-        color: white;
-        font-size: 2vw;
-        font-family: "Inter", sans-serif;
-    
-    }
-
-    .banner-information div{
-        width: 30vw;
-        font-size: 2.5vw;
-    }   
-
-
-    .logo-img-value-element{
-        width: 150px;
-    }
-    .value-proposition{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: #42a5e319;
-        border-radius: 20vw;
-        width: 95vw;
-        height: 40vh;
-        margin-top: 10vh;
-        margin-left: 3vw;
-        margin-right: 2vw;
-        
-    }
-
-    .value-proposition div{
-
-        margin-left: -1vw;
-
-
-    }
-
-    .value-element h4{
-       
-        width: 20vw;
-    }
-    .value-element{
-       width: 25vw;
-        background-color: transparent;
-        display: block;
-        margin-top: -8vh;
-    }
-
-    .logo-img-value-element{
-        width: 200px;
-    }
-    .value-element i{
-        margin-left: 15vw;
-        font-size: 8vw;
-        
-    }
-    .value-element h4{
-        height: 5vh;
-        margin-left: 10vw;
-        margin-top: 2vh;
-        font-size: 2.2vw;
-        font-weight: 300;
-        text-align: center;
-        
+    .main-value-element img{
+        margin-left: 0;
+        width: 10%;
     }
 
     .value-proposition{
-        display: flex;
-        align-items: center;
-    }
-
-    .main-value-element{
-        display: flex;
-        background-color: #1976d21a;
-        width: 70vw;
-        height: 30vh;
-        margin-left: 15vw;
-        padding: 5%;
-        margin-top: 5vh;
-        border-radius: 2vw;
-        align-items: center;
-        text-align: center;
-    }
-
-    .main-value-element h4{
-        font-size: 2.5vw;
-        font-weight: 300;
-    }
-    .testimonials{
-        margin-top: 10vh;
-    }
-    .testimonial{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-    }
-
-    .testimonial-img img{
-        width: 500px;
-    }
-
-    .social-proof{
-        margin-top: 10vh;
-        display: flex;
-        justify-content: space-around;
-    }
-    .social-element{
-        margin: 0;
-        width: 25vw;
-    }
-
-    .social-proof-content{
-        margin-top: 3vh;
-        margin: 0;
-        font-size: 1.2vw;
-    }
-
-    .social-proof-img-wrapper img{
-        margin: 0;
-        margin-top: 3vh;
-        width: 100px;
-        margin-bottom: 2vh;
-    }
-
-    .social-proof-name{
-        margin: 0;
-    }
-
-    .social-proof-name h3{
-        font-size: 1.2vw;
-    }
-    .social-proof-proffesion{
-        margin: 0;
-        font-size: 1.2vw;
-    }
-
-
-
-    .faq{
-        margin-top: 15vh;
-        margin-left: 30vw;
-        margin-right: 30vw;
-    }
-
-    .faq-title h3{
-        font-size: 3vw;
-    }
-    .faq-description p{
-        margin-top: 3vh;
-        font-size: 1.5vw;
-        text-align: center;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-    .faq-element-presentation i{
-        font-size: 2.5vw;
-    }
-}
-
-@media (min-width: 1441px) and (max-width: 1600px) {
-    header{
-        height: 85vh;
-    }
-
-    .navbar-brand img{
-        width: 200px;
-    }
-
-    .cta-navbar{
-        background-color: white;
-        width: 15vw;
-        height: 6vh;
-        border-radius: 2vw;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 2vw;
-        margin-right: 5vw;
-    }
-
-    .cta-navbar h3{
-        color: #29b6f6;
-        font-size: 2vw;
-        display: flex;
-        align-self: center;
-        margin-top: 1vh;
-        font-weight: 700;
-    }
-    .navbar-nav{
-        margin-left: 40vw;
-    }
-    .nav-link{
-        color: white;
-        font-size: 2vw;
-        font-family: "Inter", sans-serif;
-    
-    }
-
-    .banner-information div{
-        width: 30vw;
-        font-size: 2.5vw;
-    }   
-
-
-    .logo-img-value-element{
-        width: 150px;
-    }
-    .value-proposition{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: #42a5e319;
-        border-radius: 20vw;
-        width: 95vw;
-        height: 40vh;
-        margin-top: 10vh;
-        margin-left: 3vw;
-        margin-right: 2vw;
-        
-    }
-
-    .value-proposition div{
-
-        margin-left: -1vw;
-
-
+        margin-top: 13%;
     }
 
     .value-element h4{
-       
-        width: 20vw;
-    }
-    .value-element{
-       width: 25vw;
-        background-color: transparent;
-        display: block;
-        margin-top: -8vh;
-    }
-
-    .logo-img-value-element{
-        width: 200px;
-    }
-    .value-element i{
-        margin-left: 15vw;
-        font-size: 8vw;
-        
-    }
-    .value-element h4{
-        height: 5vh;
-        margin-left: 10vw;
-        margin-top: 2vh;
-        font-size: 2.2vw;
-        font-weight: 300;
-        text-align: center;
-        
-    }
-
-    .value-proposition{
-        display: flex;
-        align-items: center;
-    }
-
-    .main-value-element{
-        display: flex;
-        background-color: #1976d21a;
-        width: 70vw;
-        height: 30vh;
-        margin-left: 15vw;
-        padding: 5%;
-        margin-top: 5vh;
-        border-radius: 2vw;
-        align-items: center;
-        text-align: center;
-    }
-
-    .main-value-element h4{
-        font-size: 2.5vw;
-        font-weight: 300;
-    }
-    .testimonials{
-        margin-top: 10vh;
-    }
-    .testimonial{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-    }
-
-    .testimonial-img img{
-        width: 500px;
-    }
-
-    .social-proof{
-        margin-top: 10vh;
-        display: flex;
-        justify-content: space-around;
-    }
-    .social-element{
-        margin: 0;
-        width: 30vw;
-        
-    }
-
-    .social-proof-content{
-        margin: 0;
-        font-size: 1.65vw;
-    }
-    
-    .social-proof-img-wrapper img{
-        margin: 0;
-        margin-top: 3vh;
-        width: 100px;
-        margin-bottom: 2vh;
-    }
-
-    .social-proof-name{
-        margin-top: 3vh;
-        margin: 0;
-    }
-
-    .social-proof-proffesion{
-        margin: 0;
-    }
-
-    .social-element{
-        height: 80vh;
-    }
-    .faq{
-        margin-top: 15vh;
-        margin-left: 30vw;
-        margin-right: 30vw;
-    }
-
-    .faq-title h3{
-        font-size: 3vw;
-    }
-    .faq-description p{
-        margin-top: 3vh;
-        font-size: 1.5vw;
-        text-align: center;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-    .faq-element-presentation i{
-        font-size: 2.5vw;
-    }
-}
-
-@media (min-width: 1601px) and (max-width: 2000px) {
-    header{
-        height: 85vh;
-    }
-
-    .navbar-brand img{
-        width: 200px;
-    }
-
-    .cta-navbar{
-        background-color: white;
-        width: 15vw;
-        height: 6vh;
-        border-radius: 2vw;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 2vw;
-        margin-right: 5vw;
-        margin-top: 0.5vw;
-    }
-
-    .cta-navbar h3{
-        color: #29b6f6;
-        font-size: 2vw;
-        display: flex;
-        align-self: center;
-        margin-top: 1vh;
-        font-weight: 700;
-    }
-
-    .navbar-nav{
-        margin-left: 45vw;
-    }
-
-    .nav-link{
-        color: white;
-        font-size: 2vw;
-        font-family: "Inter", sans-serif;
-        margin-left: 1vw;
-        margin-right: 1vw;
-    }
-
-    .banner-information div{
-        width: 30vw;
-        font-size: 2.5vw;
-    }   
-
-    .logo-img-value-element{
-        width: 150px;
-    }
-
-    .value-proposition{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: #42a5e319;
-        border-radius: 20vw;
-        width: 95vw;
-        height: 40vh;
-        margin-top: 10vh;
-        margin-left: 2vw;
-        margin-right: 2vw;
-        
-    }
-
-    .value-proposition div{
-
-        margin-left: -1vw;
-
-
-    }
-
-    .value-element h4{
-       
-        width: 20vw;
-    }
-
-    .value-element{
-       width: 25vw;
-        background-color: transparent;
-        display: block;
-        margin-top: -8vh;
-    }
-
-    .logo-img-value-element{
-        width: 200px;
-    }
-
-    .value-element i{
-        margin-left: 15vw;
-        font-size: 8vw;
-        
-    }
-
-    .value-element h4{
-        height: 5vh;
-        margin-left: 10vw;
-        margin-top: 2vh;
-        font-size: 2vw;
-        font-weight: 300;
-        text-align: center;
-        
-    }
-
-    .value-proposition{
-        display: flex;
-        align-items: center;
-    }
-
-    .main-value-element{
-        display: flex;
-        background-color: #1976d21a;
-        width: 70vw;
-        height: 30vh;
-        margin-left: 15vw;
-        padding: 5%;
-        margin-top: 5vh;
-        border-radius: 2vw;
-        align-items: center;
-        text-align: center;
-    }
-
-    .main-value-element h4{
-        font-size: 2.5vw;
-        font-weight: 300;
+        font-size: 150%;
     }
 
     .testimonials{
-        margin-top: 10vh;
-    }
-
-    .testimonial{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
+        display: flex;
     }
 
     .testimonial-img img{
-        width: 700px;
+        width: 70%;
     }
 
-    .testimonial-information h3{
-        font-size: 2.5vw;
-    }
-    .testimonial-information p{
-        font-size: 1.5vw;
-    }
-    .testimonial-information ul{
-        font-size: 1vw;
-    }
-    .social-proof{
-        margin-top: 10vh;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .social-element{
-        margin: 0;
-        width: 30vw;
-        background-color: #29b5f671;
-    }
-
-    .social-proof-content{
-        margin: 0;
-        font-size: 1.5vw;
-    }
-
-    .social-proof-img-wrapper img{
-        margin: 0;
-        margin-top: 3vh;
-        width: 100px;
-        margin-bottom: 2vh;
-    }
-
-    .social-proof-name{
-        margin-top: 3vh;
-        margin: 0;
-    }
-
-    .social-proof-proffesion{
-        margin: 0;
-    }
-    
-    .faq{
-        margin-top: 15vh;
-        margin-left: 30vw;
-        margin-right: 30vw;
-    }
-
-    .faq-title h3{
-        font-size: 3vw;
-    }
-
-    .faq-description p{
-        margin-top: 3vh;
-        font-size: 1.5vw;
-        text-align: center;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-
-    .faq-element-presentation i{
-        font-size: 2.5vw;
-    }
-
-    .form-landing input{
-        height: 6vh;
-        font-size: 1.1vw;
-        width: 5vw;
-    }
-    .cta-navbar:hover{
-        background-color: #1976d2;
-        cursor: pointer;
-    }
-
-    .cta-banner:hover{
-        background-color: white;
-        color: #2FC0C5;
-        cursor: pointer;
-
-    }
-
-    .bottom-cta-button button{
-        font-size: 1.5vw;
-        font-weight: 600    ;
-        width: 20vw;
-    }
-
-    .bottom-cta-form textarea{
-        font-size: 1.2vw;   
-    }
-
-}
-
-@media (min-width: 2001px) and (max-width: 2299px) {
-
-    header{
-        height: 70vh;
-    }
-
-    .navbar-brand img{
-        width: 200px;
-    }
-    .navbar{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .main-value-element{
-
-        width: 50vw;
-        margin-left: 27vw;
-        background-color: #0079c42d;
-        border-radius: 2vw;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        padding: 2vw;
-        margin-top: 5vh;
-    }
-    .main-value-element h4{
-        margin-left: 1vw;
-        font-size: 2vw;
-        font-weight: 300;
-    }
-
-    .main-value-element img{
-        margin-left: 3vw;
-    }
-
-    .cta-navbar{
-        background-color: white;
-        width: 15vw;
-        height: 6vh;
-        border-radius: 2vw;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 2vw;
-        
-    }
-
-    .cta-navbar h3{
-        color: #29b6f6;
-        font-size: 2vw;
-        display: flex;
-        align-self: center;
-        margin-top: 1vh;
-        font-weight: 700;
-    }
-    .navbar-nav{
-        margin-left: 50vw;
-    }
-    .nav-link{
-        color: white;
-        font-size: 2vw;
-
-        margin-left: 1.5vw;
-        font-family: "Inter", sans-serif;
-    
-    }
-
-
-    .banner-information div{
-        width: 30vw;
-        font-size: 2.5vw;
-    }   
-
-    .value-proposition{
-        display: flex;
-        background-color: #42a5e319;
-        border-radius: 20vw;
-        width: 95vw;
-        height: 50vh;
-        margin-top: 10vh;
-        margin-left: 3vw;
-        margin-right: 2vw;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    .value-element{
-        margin: 0;  
-        justify-content: center;
-        background-color: transparent;
-        display: block;
-    }
-    .logo-img-value-element{
-        width: 200px;
-    }
-    .value-element i{
-        margin-top: -5vh;
-        font-size: 6vw;
-    }
-    .value-element h4{
-
-        font-size: 1.8vw;
-        padding: 2vw;
-        font-weight: 400;
-        
-    }
-
-    .value-element-1 h4{
-        margin-left: 10vw;
-    }
-    
-    .value-element-2 h4{
-        margin-left: 10vw;
-    }
-    .value-element-3 h4{
-        margin-left: 10vw;
-    }
-
-    .testimonials{
-       
-        margin-top: 15vh;
-    }
-    .testimonial{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        margin-top: 10vh;
-    }
-
-    .testimonial-img img{
-        width: 800px;
-    }
-
-    .testimonial-information h3{
-     
-        font-size: 2vw;
-        font-weight: 500;
-    }
-    .testimonial-information p{
-        font-size: 2vw;
-        font-weight: 300;
-    }
-    .testimonial-information ul li{
-        font-size: 1.5vw;
-    }
-    .social-proof{
-        margin-top: 10vh;
-        display: flex;
-        justify-content: space-around;
-    }
-    .social-element{
-        margin: 0;
-        width: 30vw;
-        height: 70vh;
-    }
-
-    .social-proof-content{
-        margin: 0;
-        font-size: 1.65vw;
-    }
-
-    .social-proof-img-wrapper img{
-        margin: 0;
-        margin-top: 3vh;
-        width: 100px;
-        margin-bottom: 2vh;
-    }
-
-    .social-proof-name{
-        margin-top: 3vh;
-        margin: 0;
-    }
-
-    .social-proof-proffesion{
-        margin: 0;
-    }
-
-    .faq{
-        margin-top: 15vh;
-        margin-left: 30vw;
-        margin-right: 30vw;
-    }
-
-    .faq-title h3{
-        font-size: 3vw;
-    }
-    .faq-description p{
-        margin-top: 3vh;
-        font-size: 1.5vw;
-        text-align: center;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-    .faq-element-presentation i{
-        font-size: 2.5vw;
-    }
-    .faq-description p{
-        font-size: 1.75vw;
-    }
-    .faq-element-title{
-        font-size: 1.6vw; 
-    }
-    .bottom-cta-form{
-        display: block;
-    }
-    .bottom-cta-form form input{
-      
-        justify-content: center;
-        font-size: 1.6vw;
-        width: 50vw;
-    }
-    .bottom-cta-title h3{
-        text-align: center;
-        font-size: 2vw;
-
-    }
-    .bottom-cta-form form textarea  {
-        font-size: 1.6vw;
-        width: 50vw;
-        border: 1px solid rgba(0, 0, 0, 0.388);
-    }
-    .bottom-cta-button button{
-        width: 20vw;
-        font-size: 2vw;
-        font-weight: 600;
-    }
-
-    .social-proof-name h3{
-        font-size: 2.5vw;
-    }
-    .social-proof-proffesion{
-        font-size: 1.5vw;
-        font-weight: 200;
-    }
-
-}
-
-@media (min-width: 2300px) and (max-width: 2600px){
-
-    header{
-        height: 70vh;
-    }
-
-    .navbar-brand img{
-        width: 200px;
-    }
-    .navbar{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .main-value-element{
-
-        width: 50vw;
-        margin-left: 27vw;
-        background-color: #0079c42d;
-        border-radius: 2vw;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        padding: 2vw;
-        margin-top: 5vh;
-    }
-    .main-value-element h4{
-        margin-left: 1vw;
-        font-size: 2vw;
-        font-weight: 300;
-    }
-
-    .main-value-element img{
-        margin-left: 3vw;
-    }
-
-    .cta-navbar{
-        background-color: white;
-        width: 15vw;
-        height: 6vh;
-        border-radius: 2vw;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 2vw;
-        
-    }
-
-    .cta-navbar h3{
-        color: #29b6f6;
-        font-size: 2vw;
-        display: flex;
-        align-self: center;
-        margin-top: 1vh;
-        font-weight: 700;
-    }
-    .navbar-nav{
-        margin-left: 50vw;
-    }
-    .nav-link{
-        color: white;
-        font-size: 2vw;
-
-        margin-left: 1.5vw;
-        font-family: "Inter", sans-serif;
-    
-    }
-
-
-    .banner-information div{
-        width: 30vw;
-        font-size: 2.5vw;
-    }   
-
-    .value-proposition{
-        display: flex;
-        background-color: #42a5e319;
-        border-radius: 20vw;
-        width: 95vw;
-        height: 25vh;
-        margin-top: 10vh;
-        margin-left: 3vw;
-        margin-right: 2vw;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    .value-element{
-        margin: 0;  
-        justify-content: center;
-        background-color: transparent;
-        display: block;
-    }
-    .logo-img-value-element{
-        width: 200px;
-    }
-    .value-element i{
-        font-size: 6vw;
-    }
-    .value-element h4{
-
-        font-size: 2vw;
-        padding: 2vw;
-        font-weight: 300;
-        
-    }
-
-
-    .testimonials{
-        margin-top: 10vh;
-    }
-    .testimonial{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-    }
-
-    .testimonial-img img{
-        width: 1000px;
-    }
-
-    .testimonial-information h3{
-        font-size: 3vw;
-    }
-    .testimonial-information p{
-        font-size: 2vw;
-    }
-    .testimonial-information ul li{
-        font-size: 1.5vw;
-    }
-    .social-proof{
-        margin-top: 10vh;
-        display: flex;
-        justify-content: space-around;
-    }
-    .social-element{
-        margin: 0;
-        width: 30vw;
-    }
-
-    .social-proof-content{
-        margin: 0;
-        font-size: 1.65vw;
-    }
-
-    .social-proof-img-wrapper img{
-        margin: 0;
-        margin-top: 3vh;
-        width: 100px;
-        margin-bottom: 2vh;
-    }
-
-    .social-proof-name{
-        margin-top: 3vh;
-        margin: 0;
-    }
-
-    .social-proof-proffesion{
-        margin: 0;
-    }
-
-
-    .social-element{
-        height: 60vh;
-    }
-    .faq{
-        margin-top: 15vh;
-        margin-left: 30vw;
-        margin-right: 30vw;
-    }
-
-    .faq-title h3{
-        font-size: 3vw;
-    }
-    .faq-description p{
-        margin-top: 3vh;
-        font-size: 1.5vw;
-        text-align: center;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-    .faq-element-presentation i{
-        font-size: 2.5vw;
-    }
-    .faq-description p{
-        font-size: 1.75vw;
-    }
-    .faq-element-title{
-        font-size: 1.6vw; 
-    }
-    .bottom-cta-form form input{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .bottom-cta-form form input{
-        font-size: 2vw;
-        width: 30vw;
-    }
-    .bottom-cta-title h3{
-        text-align: center;
-        font-size: 2vw;
-
-    }
-    .bottom-cta-form form textarea  {
-        font-size: 2vw;
-        width: 50vw;
-        border: 1px solid rgba(0, 0, 0, 0.388);
-    }
-    .bottom-cta-button button{
-        width: 20vw;
-        font-size: 2vw;
-        font-weight: 600;
-    }
-
-    .social-proof-name h3{
-        font-size: 2.5vw;
-    }
-    .social-proof-proffesion{
-        font-size: 1.5vw;
-        font-weight: 200;
-    }
-}
-
-/*
-    Height responsiveness
-*/
-
-/*
-    2001px   + devices
-*/
-
-@media (min-width: 2001px) and (max-width: 2299px) and (min-height:900px) and (max-height:1100px){
-
-    .social-element{
-      
-        height: 80vh;
-    }
-    .value-proposition {
-        height: 35vh;
-    }
-
-
-    .value-element h4{
-        font-size: 1.25vw;
-        font-weight: 400;
-    }
-}
-
-@media (min-width: 2001px) and (max-width: 2299px) and (min-height:720px) and (max-height:899px){
-    
-    .social-element{
-      
-        height: 100vh;
-    }
-    .value-proposition {
-        height: 35vh;
-    }
-
-
-    .value-element h4{
-        font-size: 1.25vw;
-        font-weight: 400;
-    }
-}
-
-@media (min-width: 2001px) and (max-width: 2299px) and (min-height:720px) and (max-height:836px){
-    
-    .cta-navbar{
-        margin-top: 2vh;
-    }
-    header{
-        height: 85vh;
-    }
-
-    .value-proposition {
-        height: 40vh;
-     
-    }
-
-
-    .value-element h4{
-       
-        font-size: 1.2vw;
-        font-weight: 400;
-    }
-}
-
-@media (min-width: 2001px) and (max-width: 2299px) and (min-height:650px) and (max-height:720px){
-    
-    .cta-navbar{
-        margin-top: 2vh;
-    }
-    header{
-        height: 95vh;
-    }
-
-    .value-proposition {
-        height: 50vh;
-     
-    }
-
-    .social-element{
-        height: 120vh;
-    }
-
-    .value-element h4{
-       
-        font-size: 1.1vw;
-        font-weight: 400;
-    }
-}
-
-@media (min-width: 2001px) and (max-width: 2299px) and (min-height:450px) and (max-height:650px){
-    
-    .cta-navbar{
-        margin-top: 2vh;
-    }
-    header{
-        height: 95vh;
-    }
-
-    .value-proposition {
-        height: 70vh;
-     
-    }
-
-    .social-element{
-        height: 120vh;
-    }
-
-    .value-element h4{
-       
-        font-size: 1.1vw;
-        font-weight: 400;
-    }
-}
-/*
-    1601px + devices
-*/
-@media (min-width: 1601px) and (max-width: 2000px) and (min-height:841px) and (max-height: 999px){
-    .value-proposition{
-
-        height: 40vh;
-    }
-}
-
-@media (min-width: 1601px) and (max-width: 2000px) and (min-height:600px) and (max-height:840px){
-    .main-value-element img{
-        width: 150px;
-    }
-    header{
-        height: 100vh;
-    }
-    .value-proposition{
-      
-        height: 50vh;
-    }
-}
-
-@media (min-width: 1601px) and (max-width: 2000px) and (min-height:400px) and (max-height: 599px){
-    .main-value-element img{
-        width: 150px;
-    }
-    header{
-        height: 120vh;
-    }
-    .value-proposition{
-
-        height: 80vh;
-    }
-}
-
-/*
-    1441px + devices
-*/
-
-@media (min-width: 1441px) and (max-width: 1600px) and (min-height:841px) and (max-height: 999px){
-    .value-proposition{
-
-        height: 40vh;
-    }
-}
 
-@media (min-width: 1441px) and (max-width: 1600px) and (min-height:600px) and (max-height:840px){
-    .main-value-element img{
-        width: 150px;
-    }
-    header{
-        height: 100vh;
-    }
-    .value-proposition{
-      
-        height: 50vh;
-    }
-}
-
-@media (min-width: 1441px) and (max-width: 1600px) and (min-height:400px) and (max-height: 599px){
-    .main-value-element img{
-        width: 150px;
-    }
-    header{
-        height: 120vh;
-    }
-    .value-proposition{
-
-        height: 80vh;
-    }
 }
