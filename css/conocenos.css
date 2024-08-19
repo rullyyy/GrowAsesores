@@ -8,277 +8,145 @@
 
 }
 
-body {
-    width: 100%;
-}
-
-
-.top-bar {
-    display: flex;
-    justify-content: space-between;
-}
-
-.company-name {
-    margin-top: 5vh;
-    margin-left: 5vw;
-}
-
-.company-name h1 {
-    color: #43AED9;
-    font-family: "Inter", sans-serif;
-    font-weight: 100;
-    font-size: 150%;
-}
-
-
-
-.social-media {
-    width: 10vw;
-    height: 10vh;
-    margin-top: 3vh;
-    margin-right: 5vw;
-    border-radius: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-media {
-    display: flex;
-    justify-content: space-between;
-    font-size: 2vw;
-    color: #43AED9;
-}
-
-.social-media a{
-    text-decoration: none;
-    color: inherit;
-}
-
-
-/* CSS for the company logo*/
-.company-logo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.company-logo img {
-    width: 15%;
-    height: 15%;
+header {
+    background: linear-gradient(to right, #0d47a1, #1976d2, #29b6f6);
 
 }
 
-/*  Styling for the main navigation navbar */
-
-
-.main-navigation {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-
-.main-navigation nav {
-    display: flex;
-}
-
-.main-navigation nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.main-navigation nav ul li {
-    font-family: "Inter", sans-serif;
-    color: #1e92c0;
-    font-size: 150%;
-    margin: 0 50px;
-}
-
-.main-navigation nav ul li:hover {
-    cursor: pointer;
-}
-
-/*Styling for the line of separation*/
-
-.separation-line {
-    margin-top: 3vh;
-    width: 100%;
-    height: 0.3vh;
-    background-color: #43AED9;
-
-}
-
-
-/*Styling for the banner*/
-
-.banner-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #43AED9;
-}
-
-.banner-message-wrapper {
-    width: 50%;
-
-}
-
-.banner-message-wrapper h3 {
-    font-family: "Inter", sans-serif;
-    font-size: 5vw;
-
+.nav-link {
     color: white;
-}
-
-.intermediary-text {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 200;
-    color: #7ad5f9;
-}
-.intermediary-text a{
-    text-decoration: none;
-    color: inherit;
-}
-.intermediary-text:hover {
-    color: #ffffff;
-    cursor: pointer;
-}
-
-/*Styling for the banner img*/
-
-.banner-img-wrapper {
-
-    width: 50%;
-
-}
-
-.banner-img-wrapper img {
-
-    width: 100%;
-
-}
-
-/*
-    Labor section
-*/
-
-.what-we-do {
-    width: 100%; 
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.labor-title {
-    width: 50%;
-}
-
-.labor-title h3 {
-
     font-family: "Inter", sans-serif;
-    font-size: 5vw;
-    font-weight: 100;
-
-    
-}
-
-.labor-title h3:hover{
-    color: #43AED9;
-    cursor: default;
-}
-
-.labor-wrapper {
-    width: 50%;
-    margin-right: 2vw;
-}
-
-.labor-1 {
-    margin-top: 50px;
+    font-size: 150%;
+    margin-top: 1vh;
+    text-decoration: underline;
+    border-radius: 10vw;
     text-align: center;
-   
-}
-
-.labor-2 {
-    margin-top: 50px;
-    text-align: center;
-
-}
-
-.labor-3 {
-    margin-top: 50px;
-    text-align: center;
-
-}
-
-.labor h3 {
-    font-family: "Inter", sans-serif;
-    color: #43AED9;
-    font-size: 2vw;
-    font-weight: 200;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 3vh;
-}
-
-.labor p {
-    font-family: "Inter", sans-serif;
-    font-size: 1.5vw;
-}
-
-/* Styling for the testimonials */
-
-.testimonial-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10vh;
-    font-size: 5vw;
-    font-family: "Inter", sans-serif;
-    color: #43AED9;
-    margin-bottom: 10vh;
-    
-}
-
-.testimonial-title h3{
-    font-weight: 100;
-}
-
-.testimonial-wrapper{
-    margin-top: 3vh;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.testimonial-subtitle{
-    text-align: center;
-    font-size: 1.5vw;
-    font-family: "Inter", sans-serif;
     font-weight: 600;
-    margin-top: 2vh;
-    color: #43AED9;
 }
 
-.testimonial-text{
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    margin-top: 2vh;
-    font-size: 1vw;
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 
 }
 
-footer{
-    background-color: #43AED9;
-    margin-top: 10vh;
-    height: 30vh;
+.cta-navbar {
+    display: none;
+}
+
+.banner {
+    background: linear-gradient(to right, #0d47a1, #1976d2, #29b6f6);
     width: 100%;
+    height: 60vh;
 }
 
+.banner-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.banner-title h3 {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 30%;
+    font-family: "Inter", sans-serif;
+
+}
+
+.banner-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-subtitle h3 {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+
+}
+
+.card-grid-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+
+}
+
+.card-grid-image img {
+    width: 80%;
+    border-radius: 10vw;
+}
+
+.card-grid-title h3 {
+    padding-top: 5%;
+    font-family: "Inter", sans-serif;
+    padding-left: 5%;
+    font-weight: 800;
+}
+
+.card-grid-subtitle p{
+
+    font-family: "Inter", sans-serif;
+    padding-left: 5%;
+}
+
+.contact{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-btn{
+    
+    background: linear-gradient(to right, #1976d2, #29b6f6);
+    padding: 5%;
+    color: white;
+    border-radius: 10vw;
+}
+
+.contact-btn h3{
+
+    font-size: 130%;
+}
+
+@media (min-width:900px){
+
+    .banner-title h3{
+        margin-top: 15%;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    .card-grid-image img{
+        width: 30%;
+    }
+
+    .card-grid-title{
+        padding-left: 15%;
+    }
+    .card-grid-title h3{
+        font-size: 500%;
+    }
+
+    .card-grid-subtitle{
+        font-size: 200%;
+        padding-left: 14%;
+        padding-right: 15% ;
+    }
+
+    .contact-btn{
+        padding: 3%;
+        width: 30%;
+    }
+    .contact-btn h3{
+        text-align: center;
+        font-size: 250%;
+    }
+}   
