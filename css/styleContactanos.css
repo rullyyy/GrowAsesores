@@ -75,7 +75,7 @@ header {
 .social-media-element{
     
     padding-top: 10%;
- 
+    font-family: "Inter", sans-serif;
     margin-top: 5%;
     width: 100%;
     border: 2px solid rgba(0, 0, 0, 0.158);
@@ -129,13 +129,84 @@ header {
     color: black;
 }
 
+.faq-wrapper{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Inter", sans-serif;
+
+}
+
+.faq-title h3{
+    font-weight: 800;
+    font-size: 200%;
+    margin-top: 20%;
+}
+
+.faq{
+    margin-top: 10%;
+}
+.question, .answer{
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.question h4{
+    font-weight: 600;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(to right, #0d47a1, #1976d2, #29b6f6);
+}
+
+.last-faq{
+    margin-bottom: 20%;
+}
 @media (min-width: 900px){
+    .navbar-brand{
+        width: 10%;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    .navbar-nav a{
+        text-decoration: none;
+        font-size: 150%;
+    }
+    .banner-title{
+        font-size: 200%
+    }
+
+    .banner-title h3{
+        font-weight: 600;
+    }
     .grid-social-media{
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1;
+        grid-template-rows: 1fr;
         gap: 5%;
     }
 
+    .faq-wrapper{
+        margin-top: -10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .faq{
+        margin-top: 5%;
+    }
+    .question h4{
+        font-weight: 500;
+    }
 
+    .question h4{
+        font-size: 150%;
+    }
+
+    .answer p{
+        font-size: 115%;
+    }
 
 }
