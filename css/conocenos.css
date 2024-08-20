@@ -137,7 +137,12 @@ header {
 }
 
 @media (min-width: 1200px){
-
+    .navbar-brand{
+        width: 10%;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
     .card-grid-image img{
         width: 30%;
     }
@@ -164,10 +169,4 @@ header {
         font-size: 250%;
     }
 
-    .navbar-nav {
-      
-        width: 100%;
-        justify-content: right;
-        padding-right: 5%;
-    }
 }   

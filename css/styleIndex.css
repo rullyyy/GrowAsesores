@@ -31,11 +31,13 @@ header {
     font-family: "Inter", sans-serif;
     font-size: 150%;
     margin-top: 1vh;
-    text-decoration: underline;
+ 
     border-radius: 10vw;
     text-align: center;
     font-weight: 600;
 }
+
+
 
 
 .navbar-toggler-icon {
@@ -264,6 +266,9 @@ footer {
 
 
 @media (min-width: 900px) {
+    header{
+        height: 80vh;
+    }
     .banner-information h3 {
         font-size: 300%;
     }
@@ -321,11 +326,12 @@ footer {
 
 @media (min-width: 1200px) {
 
-    .navbar-brand img {
-        width: 20%;
+    .navbar-brand{
+        width: 10%;
     }
-
-
+    .navbar-brand img{
+        width: 100%;
+    }
     .navbar-nav a {
         text-decoration: none;
         font-size: 160%;
@@ -335,18 +341,22 @@ footer {
         margin-top: 10%;
     }
 
+
+
+
     .cta-navbar {
         display: flex;
         width: 20vw;
         text-align: center;
         background-color: #42e2e7;
-        margin-left: 4%;
-        margin-right: 10%;
+        margin-left: 60%;
+        margin-right: -100%;
     }
 
     .cta-navbar h3 {
         width: 100%;
         color: white;
+        font-size: 125%;
     }
 
     .banner-information div {
