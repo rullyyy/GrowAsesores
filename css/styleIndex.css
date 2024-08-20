@@ -31,7 +31,6 @@ header {
     font-family: "Inter", sans-serif;
     font-size: 150%;
     margin-top: 1vh;
- 
     border-radius: 10vw;
     text-align: center;
     font-weight: 600;
@@ -334,7 +333,7 @@ footer {
     }
     .navbar-nav a {
         text-decoration: none;
-        font-size: 160%;
+        font-size: 150%;
     }
 
     .banner-information h3 {
