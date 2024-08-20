@@ -32,7 +32,17 @@ header {
 .cta-navbar {
     display: none;
 }
-
+.nav-link {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 150%;
+    margin-top: 1vh;
+    text-decoration: underline;
+    border-radius: 10vw;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+}
 .banner {
     background: linear-gradient(to right, #0d47a1, #1976d2, #29b6f6);
     width: 100%;
@@ -43,13 +53,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
 
 .banner-title h3 {
     color: white;
     text-align: center;
-    font-size: 300%;
-    margin-top: 30%;
+    font-size: 250%;
+    margin-top: 40%;
     font-family: "Inter", sans-serif;
 
 }
@@ -91,6 +104,7 @@ header {
 
     font-family: "Inter", sans-serif;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 .contact{
@@ -148,5 +162,12 @@ header {
     .contact-btn h3{
         text-align: center;
         font-size: 250%;
+    }
+
+    .navbar-nav {
+      
+        width: 100%;
+        justify-content: right;
+        padding-right: 5%;
     }
 }   

@@ -19,6 +19,13 @@ header {
     display: none;
 }
 
+.banner-information a{
+    text-decoration: none;
+}
+
+.cta-banner:hover{
+    background-color: #29b6f6;
+}
 .nav-link {
     color: white;
     font-family: "Inter", sans-serif;
